@@ -1,0 +1,16 @@
+{
+  "orgName": "Bluesoft Scratch Org",
+  "edition": "Developer",
+  "features": [
+    "EnableSetPasswordInApi",
+    "ServiceCloudConsole"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
