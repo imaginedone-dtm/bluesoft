@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SistemaProjetos__c</fullName>
+    <label>Sistema de Projetos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jira Projetos</fullName>
+                <default>false</default>
+                <label>Jira Projetos</label>
+            </value>
+            <value>
+                <fullName>Trello</fullName>
+                <default>false</default>
+                <label>Trello</label>
+            </value>
+            <value>
+                <fullName>Monday.com</fullName>
+                <default>false</default>
+                <label>Monday.com</label>
+            </value>
+            <value>
+                <fullName>Asana</fullName>
+                <default>false</default>
+                <label>Asana</label>
+            </value>
+            <value>
+                <fullName>Bitrix</fullName>
+                <default>false</default>
+                <label>Bitrix</label>
+            </value>
+            <value>
+                <fullName>Microsoft Project</fullName>
+                <default>false</default>
+                <label>Microsoft Project</label>
+            </value>
+            <value>
+                <fullName>Artia</fullName>
+                <default>false</default>
+                <label>Artia</label>
+            </value>
+            <value>
+                <fullName>Run Run IT</fullName>
+                <default>false</default>
+                <label>Run Run IT</label>
+            </value>
+            <value>
+                <fullName>Smartsheet</fullName>
+                <default>false</default>
+                <label>Smartsheet</label>
+            </value>
+            <value>
+                <fullName>Click Up</fullName>
+                <default>false</default>
+                <label>Click Up</label>
+            </value>
+            <value>
+                <fullName>Wrike</fullName>
+                <default>false</default>
+                <label>Wrike</label>
+            </value>
+            <value>
+                <fullName>Basecamp</fullName>
+                <default>false</default>
+                <label>Basecamp</label>
+            </value>
+            <value>
+                <fullName>Sensr. IT Tivit</fullName>
+                <default>false</default>
+                <label>Sensr. IT Tivit</label>
+            </value>
+            <value>
+                <fullName>Fluig TOTVS</fullName>
+                <default>false</default>
+                <label>Fluig TOTVS</label>
+            </value>
+            <value>
+                <fullName>Deskmanager</fullName>
+                <default>false</default>
+                <label>Deskmanager</label>
+            </value>
+            <value>
+                <fullName>Redmine</fullName>
+                <default>false</default>
+                <label>Redmine</label>
+            </value>
+            <value>
+                <fullName>OpenProject</fullName>
+                <default>false</default>
+                <label>OpenProject</label>
+            </value>
+            <value>
+                <fullName>GitLab</fullName>
+                <default>false</default>
+                <label>GitLab</label>
+            </value>
+            <value>
+                <fullName>Azure DevOps</fullName>
+                <default>false</default>
+                <label>Azure DevOps</label>
+            </value>
+            <value>
+                <fullName>Notion</fullName>
+                <default>false</default>
+                <label>Notion</label>
+            </value>
+            <value>
+                <fullName>Airtable</fullName>
+                <default>false</default>
+                <label>Airtable</label>
+            </value>
+            <value>
+                <fullName>Zoho Projects</fullName>
+                <default>false</default>
+                <label>Zoho Projects</label>
+            </value>
+            <value>
+                <fullName>Não possui ferramenta</fullName>
+                <default>false</default>
+                <label>Não possui ferramenta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

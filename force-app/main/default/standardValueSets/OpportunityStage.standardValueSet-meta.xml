@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Apresentação</fullName>
+        <default>false</default>
+        <description>Primeiro contato comercial com o prospect.</description>
+        <label>Apresentação</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Proposta enviada</fullName>
+        <default>false</default>
+        <description>Proposta comercial Acelerato enviada ao prospect.</description>
+        <label>Proposta enviada</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial</fullName>
+        <default>false</default>
+        <description>Prospect em período de teste do Acelerato.</description>
+        <label>Trial</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>35</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Monitoramento</fullName>
+        <default>false</default>
+        <description>Acompanhamento do uso do trial pelo prospect.</description>
+        <label>Monitoramento</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>45</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Teste/ Validação</fullName>
+        <default>false</default>
+        <description>Prospect validando a solução antes de avançar.</description>
+        <label>Teste/ Validação</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>55</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Reunião para avançar | Decisor</fullName>
+        <default>false</default>
+        <description>Reunião com decisor para avançar negociação Acelerato.</description>
+        <label>Reunião para avançar | Decisor</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>70</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Negociação Avançada</fullName>
+        <default>false</default>
+        <description>Negociação avançada do Acelerato — proposta em revisão final.</description>
+        <label>Negociação Avançada</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>85</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Relacionamento</fullName>
+        <default>false</default>
+        <description>Construção de relacionamento com o prospect ERP.</description>
+        <label>Relacionamento</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>20</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Overview ERP</fullName>
+        <default>false</default>
+        <description>Demonstração/overview do ERP para o prospect.</description>
+        <label>Overview ERP</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>40</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Proposta Assinada</fullName>
+        <default>false</default>
+        <description>Proposta comercial ERP assinada pelo cliente.</description>
+        <label>Proposta Assinada</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>80</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Contrato</fullName>
+        <default>false</default>
+        <description>Fase de contrato formal ERP — formalização jurídica.</description>
+        <label>Contrato</label>
+        <closed>false</closed>
+        <forecastCategory>Forecast</forecastCategory>
+        <probability>95</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Negociação</fullName>
+        <default>false</default>
+        <description>Negociação de preço e condições do ERP.</description>
+        <label>Negociação</label>
+        <closed>false</closed>
+        <forecastCategory>BestCase</forecastCategory>
+        <probability>55</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+        <description>Negócio fechado com sucesso.</description>
+        <label>Closed Won</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+        <description>Negócio perdido.</description>
+        <label>Closed Lost</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EM CONTATO COM O EXECUTIVO</fullName>
+        <default>false</default>
+        <label>EM CONTATO COM O EXECUTIVO</label>
+    </customValue>
+    <customValue>
+        <fullName>EM CONTATO COM O FINDER</fullName>
+        <default>false</default>
+        <label>EM CONTATO COM O FINDER</label>
+    </customValue>
+    <customValue>
+        <fullName>LEAD FRIO</fullName>
+        <default>false</default>
+        <label>LEAD FRIO</label>
+    </customValue>
+    <customValue>
+        <fullName>LEAD QUENTE</fullName>
+        <default>false</default>
+        <label>LEAD QUENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>CLIENTE DA BASE</fullName>
+        <default>false</default>
+        <label>CLIENTE DA BASE</label>
+    </customValue>
+    <customValue>
+        <fullName>LEAD MORNO</fullName>
+        <default>false</default>
+        <label>LEAD MORNO</label>
+    </customValue>
+    <customValue>
+        <fullName>NOVO LEAD</fullName>
+        <default>false</default>
+        <label>NOVO LEAD</label>
+    </customValue>
+    <customValue>
+        <fullName>NÃO QUALIFICADO</fullName>
+        <default>false</default>
+        <label>NÃO QUALIFICADO</label>
+    </customValue>
+    <customValue>
+        <fullName>NÃO NUTRIDO</fullName>
+        <default>false</default>
+        <label>NÃO NUTRIDO</label>
+    </customValue>
+    <customValue>
+        <fullName>LEAD INBOUND</fullName>
+        <default>false</default>
+        <label>LEAD INBOUND</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK LIST</fullName>
+        <default>false</default>
+        <label>BLACK LIST</label>
+    </customValue>
+    <customValue>
+        <fullName>URGENTE</fullName>
+        <default>false</default>
+        <label>URGENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>GIGANTES</fullName>
+        <default>false</default>
+        <label>GIGANTES</label>
+    </customValue>
+    <customValue>
+        <fullName>MUITO GRANDES</fullName>
+        <default>false</default>
+        <label>MUITO GRANDES</label>
+    </customValue>
+    <customValue>
+        <fullName>LEAD FUTURO</fullName>
+        <default>false</default>
+        <label>LEAD FUTURO</label>
+    </customValue>
+    <customValue>
+        <fullName>EM NUTRIÇÃO</fullName>
+        <default>false</default>
+        <label>EM NUTRIÇÃO</label>
+    </customValue>
+    <customValue>
+        <fullName>FUNIL SDR</fullName>
+        <default>false</default>
+        <label>FUNIL SDR</label>
+    </customValue>
+    <customValue>
+        <fullName>EX CLIENTE</fullName>
+        <default>false</default>
+        <label>EX CLIENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>CLIENTE MOVIDESK</fullName>
+        <default>false</default>
+        <label>CLIENTE MOVIDESK</label>
+    </customValue>
+    <customValue>
+        <fullName>NÃO QUALIFICADO - RAMO DE ATUAÇÃO</fullName>
+        <default>false</default>
+        <label>NÃO QUALIFICADO - RAMO DE ATUAÇÃO</label>
+    </customValue>
+    <description>Lista global de tags para classificacao de Leads e Contas. Valores definidos pela cliente Ju (Bluesoft).</description>
+    <masterLabel>Tags</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

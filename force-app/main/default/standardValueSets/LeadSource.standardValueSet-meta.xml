@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Site_institucional</fullName>
+        <default>false</default>
+        <label>Site institucional</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Google_Ads</fullName>
+        <default>false</default>
+        <label>Google Ads</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Indicacao_cliente</fullName>
+        <default>false</default>
+        <label>Indicacao de cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Indicacao_parceiro</fullName>
+        <default>false</default>
+        <label>Indicacao de parceiro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evento_feira</fullName>
+        <default>false</default>
+        <label>Evento/feira</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WhatsApp_inbound</fullName>
+        <default>false</default>
+        <label>WhatsApp inbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email_marketing</fullName>
+        <default>false</default>
+        <label>E-mail marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trial_Acelerato</fullName>
+        <default>false</default>
+        <label>Trial Acelerato</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospeccao_ativa</fullName>
+        <default>false</default>
+        <label>Prospeccao ativa</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telefone</fullName>
+        <default>false</default>
+        <label>Telefone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat_site</fullName>
+        <default>false</default>
+        <label>Chat do site</label>
+    </standardValue>
+</StandardValueSet>

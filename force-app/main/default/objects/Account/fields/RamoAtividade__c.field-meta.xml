@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RamoAtividade__c</fullName>
+    <description>Ramo de atividade da empresa</description>
+    <label>Ramo de Atividade</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alimentar - Atacado</fullName>
+                <default>false</default>
+                <label>Alimentar - Atacado</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Atacarejo</fullName>
+                <default>false</default>
+                <label>Alimentar - Atacarejo</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Açougues Casa de Carnes</fullName>
+                <default>false</default>
+                <label>Alimentar - Açougues Casa de Carnes</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Bebidas</fullName>
+                <default>false</default>
+                <label>Alimentar - Bebidas</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Conveniência</fullName>
+                <default>false</default>
+                <label>Alimentar - Conveniência</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Doces</fullName>
+                <default>false</default>
+                <label>Alimentar - Doces</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Empório</fullName>
+                <default>false</default>
+                <label>Alimentar - Empório</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Hipermercado</fullName>
+                <default>false</default>
+                <label>Alimentar - Hipermercado</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Hortifruti</fullName>
+                <default>false</default>
+                <label>Alimentar - Hortifruti</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Mercado</fullName>
+                <default>false</default>
+                <label>Alimentar - Mercado</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Mercado Autônomo</fullName>
+                <default>false</default>
+                <label>Alimentar - Mercado Autônomo</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Mercearia</fullName>
+                <default>false</default>
+                <label>Alimentar - Mercearia</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Outros</fullName>
+                <default>false</default>
+                <label>Alimentar - Outros</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Padarias &amp; Docerias</fullName>
+                <default>false</default>
+                <label>Alimentar - Padarias &amp; Docerias</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Saudável &amp; Suplementos</fullName>
+                <default>false</default>
+                <label>Alimentar - Saudável &amp; Suplementos</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Superatacado</fullName>
+                <default>false</default>
+                <label>Alimentar - Superatacado</label>
+            </value>
+            <value>
+                <fullName>Automotivos</fullName>
+                <default>false</default>
+                <label>Automotivos</label>
+            </value>
+            <value>
+                <fullName>Bazar | Utilidades | Brinquedos | Papelarias | Artigos | Presentes</fullName>
+                <default>false</default>
+                <label>Bazar | Utilidades | Brinquedos | Papelarias | Artigos | Presentes</label>
+            </value>
+            <value>
+                <fullName>Bebê</fullName>
+                <default>false</default>
+                <label>Bebê</label>
+            </value>
+            <value>
+                <fullName>Cama Mesa e Banho</fullName>
+                <default>false</default>
+                <label>Cama Mesa e Banho</label>
+            </value>
+            <value>
+                <fullName>Construtora | Incorporadora</fullName>
+                <default>false</default>
+                <label>Construtora | Incorporadora</label>
+            </value>
+            <value>
+                <fullName>Consultoria</fullName>
+                <default>false</default>
+                <label>Consultoria</label>
+            </value>
+            <value>
+                <fullName>Cooperativa</fullName>
+                <default>false</default>
+                <label>Cooperativa</label>
+            </value>
+            <value>
+                <fullName>Distribuidor</fullName>
+                <default>false</default>
+                <label>Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Drogaria | Farmácia | Medicamentos</fullName>
+                <default>false</default>
+                <label>Drogaria | Farmácia | Medicamentos</label>
+            </value>
+            <value>
+                <fullName>E-commerce</fullName>
+                <default>false</default>
+                <label>E-commerce</label>
+            </value>
+            <value>
+                <fullName>Eletrodomésticos | Eletromóveis</fullName>
+                <default>false</default>
+                <label>Eletrodomésticos | Eletromóveis</label>
+            </value>
+            <value>
+                <fullName>Fashion | Moda Calçados e Esportivos</fullName>
+                <default>false</default>
+                <label>Fashion | Moda Calçados e Esportivos</label>
+            </value>
+            <value>
+                <fullName>Food Service | Restaurantes Bar Café Fast food</fullName>
+                <default>false</default>
+                <label>Food Service | Restaurantes Bar Café Fast food</label>
+            </value>
+            <value>
+                <fullName>Franquia</fullName>
+                <default>false</default>
+                <label>Franquia</label>
+            </value>
+            <value>
+                <fullName>Frigorífico</fullName>
+                <default>false</default>
+                <label>Frigorífico</label>
+            </value>
+            <value>
+                <fullName>Higiene</fullName>
+                <default>false</default>
+                <label>Higiene</label>
+            </value>
+            <value>
+                <fullName>Home Centers | Construção</fullName>
+                <default>false</default>
+                <label>Home Centers | Construção</label>
+            </value>
+            <value>
+                <fullName>Mais categorias</fullName>
+                <default>false</default>
+                <label>Mais categorias</label>
+            </value>
+            <value>
+                <fullName>Indústria</fullName>
+                <default>false</default>
+                <label>Indústria</label>
+            </value>
+            <value>
+                <fullName>Infantil</fullName>
+                <default>false</default>
+                <label>Infantil</label>
+            </value>
+            <value>
+                <fullName>Limpeza</fullName>
+                <default>false</default>
+                <label>Limpeza</label>
+            </value>
+            <value>
+                <fullName>Livraria</fullName>
+                <default>false</default>
+                <label>Livraria</label>
+            </value>
+            <value>
+                <fullName>Lojas de Shopping</fullName>
+                <default>false</default>
+                <label>Lojas de Shopping</label>
+            </value>
+            <value>
+                <fullName>Móveis</fullName>
+                <default>false</default>
+                <label>Móveis</label>
+            </value>
+            <value>
+                <fullName>Perfumarias | Beleza &amp; Cosméticos</fullName>
+                <default>false</default>
+                <label>Perfumarias | Beleza &amp; Cosméticos</label>
+            </value>
+            <value>
+                <fullName>Pet</fullName>
+                <default>false</default>
+                <label>Pet</label>
+            </value>
+            <value>
+                <fullName>Posto de Combustível</fullName>
+                <default>false</default>
+                <label>Posto de Combustível</label>
+            </value>
+            <value>
+                <fullName>Serviços - Automotivos</fullName>
+                <default>false</default>
+                <label>Serviços - Automotivos</label>
+            </value>
+            <value>
+                <fullName>Serviços - Bancos Fintechs Seguradoras</fullName>
+                <default>false</default>
+                <label>Serviços - Bancos Fintechs Seguradoras</label>
+            </value>
+            <value>
+                <fullName>Serviços - Educacionais</fullName>
+                <default>false</default>
+                <label>Serviços - Educacionais</label>
+            </value>
+            <value>
+                <fullName>Serviços - Hotelaria &amp; Turismo</fullName>
+                <default>false</default>
+                <label>Serviços - Hotelaria &amp; Turismo</label>
+            </value>
+            <value>
+                <fullName>Serviços - Imobiliárias</fullName>
+                <default>false</default>
+                <label>Serviços - Imobiliárias</label>
+            </value>
+            <value>
+                <fullName>Serviços - Logística &amp; Transporte</fullName>
+                <default>false</default>
+                <label>Serviços - Logística &amp; Transporte</label>
+            </value>
+            <value>
+                <fullName>Serviços - Contabilidade</fullName>
+                <default>false</default>
+                <label>Serviços - Contabilidade</label>
+            </value>
+            <value>
+                <fullName>Serviços - Marketing</fullName>
+                <default>false</default>
+                <label>Serviços - Marketing</label>
+            </value>
+            <value>
+                <fullName>Serviços - Outros</fullName>
+                <default>false</default>
+                <label>Serviços - Outros</label>
+            </value>
+            <value>
+                <fullName>Serviços - Saúde</fullName>
+                <default>false</default>
+                <label>Serviços - Saúde</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>Tecnologia</fullName>
+                <default>false</default>
+                <label>Tecnologia</label>
+            </value>
+            <value>
+                <fullName>Têxtil</fullName>
+                <default>false</default>
+                <label>Têxtil</label>
+            </value>
+            <value>
+                <fullName>Tintas</fullName>
+                <default>false</default>
+                <label>Tintas</label>
+            </value>
+            <value>
+                <fullName>Varejo (Outros)</fullName>
+                <default>false</default>
+                <label>Varejo (Outros)</label>
+            </value>
+            <value>
+                <fullName>Óticas Jóias Bijoux Bolsas e Acessórios</fullName>
+                <default>false</default>
+                <label>Óticas Jóias Bijoux Bolsas e Acessórios</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

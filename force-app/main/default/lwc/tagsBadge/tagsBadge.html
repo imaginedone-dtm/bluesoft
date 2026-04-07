@@ -1,0 +1,9 @@
+<template>
+    <template if:true={hasTags}>
+        <div class="tags-container">
+            <template for:each={tags} for:item="tag">
+                <span key={tag.value} class={tag.cssClass}>{tag.label}</span>
+            </template>
+        </div>
+    </template>
+</template>

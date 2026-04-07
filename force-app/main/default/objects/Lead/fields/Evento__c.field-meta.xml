@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evento__c</fullName>
+    <description>Evento onde o lead foi captado</description>
+    <label>Evento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NRF 2026</fullName>
+                <default>false</default>
+                <label>NRF 2026</label>
+            </value>
+            <value>
+                <fullName>Pós NRF ABRAS</fullName>
+                <default>false</default>
+                <label>Pós NRF ABRAS</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação (ACAPS)</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação (ACAPS)</label>
+            </value>
+            <value>
+                <fullName>Fórum SA+</fullName>
+                <default>false</default>
+                <label>Fórum SA+</label>
+            </value>
+            <value>
+                <fullName>Smart Market</fullName>
+                <default>false</default>
+                <label>Smart Market</label>
+            </value>
+            <value>
+                <fullName>APAS Show</fullName>
+                <default>false</default>
+                <label>APAS Show</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação AGAS</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação AGAS</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação (AMIS)</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação (AMIS)</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação (ASSURN)</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação (ASSURN)</label>
+            </value>
+            <value>
+                <fullName>ACAPS</fullName>
+                <default>false</default>
+                <label>ACAPS</label>
+            </value>
+            <value>
+                <fullName>ABRAS&apos;26</fullName>
+                <default>false</default>
+                <label>ABRAS&apos;26</label>
+            </value>
+            <value>
+                <fullName>Super Minas</fullName>
+                <default>false</default>
+                <label>Super Minas</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação (ACESU)</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação (ACESU)</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação APRAS</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação APRAS</label>
+            </value>
+            <value>
+                <fullName>Jantar Dia dos Supermercados</fullName>
+                <default>false</default>
+                <label>Jantar Dia dos Supermercados</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação</label>
+            </value>
+            <value>
+                <fullName>Neogrid Summit</fullName>
+                <default>false</default>
+                <label>Neogrid Summit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

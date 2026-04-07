@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusERP__c</fullName>
+    <label>Status ERP</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apresentado sem interesse no momento</fullName>
+                <default>false</default>
+                <label>Apresentado sem interesse no momento</label>
+            </value>
+            <value>
+                <fullName>Apresentamos no passado - Retomar contato</fullName>
+                <default>false</default>
+                <label>Apresentamos no passado - Retomar contato</label>
+            </value>
+            <value>
+                <fullName>Desqualificado - ERP não aderente</fullName>
+                <default>false</default>
+                <label>Desqualificado - ERP não aderente</label>
+            </value>
+            <value>
+                <fullName>Cliente ativo - Bluesoft ERP</fullName>
+                <default>false</default>
+                <label>Cliente ativo - Bluesoft ERP</label>
+            </value>
+            <value>
+                <fullName>Cliente churn - Cancelado</fullName>
+                <default>false</default>
+                <label>Cliente churn - Cancelado</label>
+            </value>
+            <value>
+                <fullName>Lead com proposta comercial</fullName>
+                <default>false</default>
+                <label>Lead com proposta comercial</label>
+            </value>
+            <value>
+                <fullName>Não está satisfeito com o atual sistema</fullName>
+                <default>false</default>
+                <label>Não está satisfeito com o atual sistema</label>
+            </value>
+            <value>
+                <fullName>Não possui interesse de contratar/trocar</fullName>
+                <default>false</default>
+                <label>Não possui interesse de contratar/trocar</label>
+            </value>
+            <value>
+                <fullName>Não possui interesse em conhecer</fullName>
+                <default>false</default>
+                <label>Não possui interesse em conhecer</label>
+            </value>
+            <value>
+                <fullName>Nunca apresentamos</fullName>
+                <default>false</default>
+                <label>Nunca apresentamos</label>
+            </value>
+            <value>
+                <fullName>Possui interesse de troca</fullName>
+                <default>false</default>
+                <label>Possui interesse de troca</label>
+            </value>
+            <value>
+                <fullName>Possui interesse em conhecer</fullName>
+                <default>false</default>
+                <label>Possui interesse em conhecer</label>
+            </value>
+            <value>
+                <fullName>Possui projeto futuro de troca</fullName>
+                <default>false</default>
+                <label>Possui projeto futuro de troca</label>
+            </value>
+            <value>
+                <fullName>Trocou a gestão a menos de 1 ano</fullName>
+                <default>false</default>
+                <label>Trocou a gestão a menos de 1 ano</label>
+            </value>
+            <value>
+                <fullName>Trocou o sistema a menos de 1 ano</fullName>
+                <default>false</default>
+                <label>Trocou o sistema a menos de 1 ano</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Focus_Area__c</fullName>
+    <description>Foco principal do lead: indica a linha de produto/parceria de interesse. Usado para atribuicao automatica de leads.</description>
+    <label>Foco Principal</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parceria</fullName>
+                <default>false</default>
+                <label>Parceria</label>
+            </value>
+            <value>
+                <fullName>Acelerato</fullName>
+                <default>false</default>
+                <label>Acelerato</label>
+            </value>
+            <value>
+                <fullName>ERP</fullName>
+                <default>false</default>
+                <label>ERP</label>
+            </value>
+            <value>
+                <fullName>Cosmos</fullName>
+                <default>false</default>
+                <label>Cosmos</label>
+            </value>
+            <value>
+                <fullName>Ambos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ambos</label>
+            </value>
+            <value>
+                <fullName>RP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

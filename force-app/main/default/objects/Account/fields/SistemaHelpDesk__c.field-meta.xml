@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SistemaHelpDesk__c</fullName>
+    <label>Sistema Help Desk</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acelerato</fullName>
+                <default>false</default>
+                <label>Acelerato</label>
+            </value>
+            <value>
+                <fullName>Freshdesk</fullName>
+                <default>false</default>
+                <label>Freshdesk</label>
+            </value>
+            <value>
+                <fullName>Zendesk</fullName>
+                <default>false</default>
+                <label>Zendesk</label>
+            </value>
+            <value>
+                <fullName>Movidesk</fullName>
+                <default>false</default>
+                <label>Movidesk</label>
+            </value>
+            <value>
+                <fullName>Octadesk</fullName>
+                <default>false</default>
+                <label>Octadesk</label>
+            </value>
+            <value>
+                <fullName>Tom Ticket</fullName>
+                <default>false</default>
+                <label>Tom Ticket</label>
+            </value>
+            <value>
+                <fullName>Desk Manager</fullName>
+                <default>false</default>
+                <label>Desk Manager</label>
+            </value>
+            <value>
+                <fullName>Geiko</fullName>
+                <default>false</default>
+                <label>Geiko</label>
+            </value>
+            <value>
+                <fullName>AuvoDesk</fullName>
+                <default>false</default>
+                <label>AuvoDesk</label>
+            </value>
+            <value>
+                <fullName>Mildesk</fullName>
+                <default>false</default>
+                <label>Mildesk</label>
+            </value>
+            <value>
+                <fullName>Zoho</fullName>
+                <default>false</default>
+                <label>Zoho</label>
+            </value>
+            <value>
+                <fullName>Pipefy</fullName>
+                <default>false</default>
+                <label>Pipefy</label>
+            </value>
+            <value>
+                <fullName>OTRS</fullName>
+                <default>false</default>
+                <label>OTRS</label>
+            </value>
+            <value>
+                <fullName>Sistema Próprio</fullName>
+                <default>false</default>
+                <label>Sistema Próprio</label>
+            </value>
+            <value>
+                <fullName>Milvus</fullName>
+                <default>false</default>
+                <label>Milvus</label>
+            </value>
+            <value>
+                <fullName>monday.com</fullName>
+                <default>false</default>
+                <label>monday.com</label>
+            </value>
+            <value>
+                <fullName>SysAid</fullName>
+                <default>false</default>
+                <label>SysAid</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Live Agent</fullName>
+                <default>false</default>
+                <label>Live Agent</label>
+            </value>
+            <value>
+                <fullName>Service Now</fullName>
+                <default>false</default>
+                <label>Service Now</label>
+            </value>
+            <value>
+                <fullName>Hubspot Service Hub</fullName>
+                <default>false</default>
+                <label>Hubspot Service Hub</label>
+            </value>
+            <value>
+                <fullName>Sensr. IT Tivit</fullName>
+                <default>false</default>
+                <label>Sensr. IT Tivit</label>
+            </value>
+            <value>
+                <fullName>Agidesk</fullName>
+                <default>false</default>
+                <label>Agidesk</label>
+            </value>
+            <value>
+                <fullName>Brazip mY suite</fullName>
+                <default>false</default>
+                <label>Brazip mY suite</label>
+            </value>
+            <value>
+                <fullName>GLPI</fullName>
+                <default>false</default>
+                <label>GLPI</label>
+            </value>
+            <value>
+                <fullName>Ellevo</fullName>
+                <default>false</default>
+                <label>Ellevo</label>
+            </value>
+            <value>
+                <fullName>Groove</fullName>
+                <default>false</default>
+                <label>Groove</label>
+            </value>
+            <value>
+                <fullName>Redmine</fullName>
+                <default>false</default>
+                <label>Redmine</label>
+            </value>
+            <value>
+                <fullName>TI Flux</fullName>
+                <default>false</default>
+                <label>TI Flux</label>
+            </value>
+            <value>
+                <fullName>HelpShift</fullName>
+                <default>false</default>
+                <label>HelpShift</label>
+            </value>
+            <value>
+                <fullName>ACS PRO (Manage Engine)</fullName>
+                <default>false</default>
+                <label>ACS PRO (Manage Engine)</label>
+            </value>
+            <value>
+                <fullName>Não possui ferramenta</fullName>
+                <default>false</default>
+                <label>Não possui ferramenta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EtiquetasAcelerato__c</fullName>
+    <label>Etiquetas Acelerato</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Perdidos ERP Alto Potêncial</fullName>
+                <default>false</default>
+                <label>Perdidos ERP Alto Potêncial</label>
+            </value>
+            <value>
+                <fullName>Perdidos ERP Baixo Potêncial</fullName>
+                <default>false</default>
+                <label>Perdidos ERP Baixo Potêncial</label>
+            </value>
+            <value>
+                <fullName>Outbound Lista Movidesk</fullName>
+                <default>false</default>
+                <label>Outbound Lista Movidesk</label>
+            </value>
+            <value>
+                <fullName>Lead Outbound</fullName>
+                <default>false</default>
+                <label>Lead Outbound</label>
+            </value>
+            <value>
+                <fullName>Perdidos Acelerato</fullName>
+                <default>false</default>
+                <label>Perdidos Acelerato</label>
+            </value>
+            <value>
+                <fullName>Não Nutrido</fullName>
+                <default>false</default>
+                <label>Não Nutrido</label>
+            </value>
+            <value>
+                <fullName>Lead Inbound</fullName>
+                <default>false</default>
+                <label>Lead Inbound</label>
+            </value>
+            <value>
+                <fullName>Lead Quente</fullName>
+                <default>false</default>
+                <label>Lead Quente</label>
+            </value>
+            <value>
+                <fullName>Lead Frio</fullName>
+                <default>false</default>
+                <label>Lead Frio</label>
+            </value>
+            <value>
+                <fullName>Lead Morno</fullName>
+                <default>false</default>
+                <label>Lead Morno</label>
+            </value>
+            <value>
+                <fullName>Não Qualificado</fullName>
+                <default>false</default>
+                <label>Não Qualificado</label>
+            </value>
+            <value>
+                <fullName>Cliente da Base</fullName>
+                <default>false</default>
+                <label>Cliente da Base</label>
+            </value>
+            <value>
+                <fullName>Lead Estratégico</fullName>
+                <default>false</default>
+                <label>Lead Estratégico</label>
+            </value>
+            <value>
+                <fullName>Lead Grandes Contas</fullName>
+                <default>false</default>
+                <label>Lead Grandes Contas</label>
+            </value>
+            <value>
+                <fullName>Lead Up Sell</fullName>
+                <default>false</default>
+                <label>Lead Up Sell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finder__c</fullName>
+    <label>Finder</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sebastião Paxa</fullName>
+                <default>false</default>
+                <label>Sebastião Paxa</label>
+            </value>
+            <value>
+                <fullName>Software nas Nuvens</fullName>
+                <default>false</default>
+                <label>Software nas Nuvens</label>
+            </value>
+            <value>
+                <fullName>Conexos</fullName>
+                <default>false</default>
+                <label>Conexos</label>
+            </value>
+            <value>
+                <fullName>Andreia Medina</fullName>
+                <default>false</default>
+                <label>Andreia Medina</label>
+            </value>
+            <value>
+                <fullName>All Varejo</fullName>
+                <default>false</default>
+                <label>All Varejo</label>
+            </value>
+            <value>
+                <fullName>Claudio Nani (Lota)</fullName>
+                <default>false</default>
+                <label>Claudio Nani (Lota)</label>
+            </value>
+            <value>
+                <fullName>Paulo(PC) e Antonio (RN)</fullName>
+                <default>false</default>
+                <label>Paulo(PC) e Antonio (RN)</label>
+            </value>
+            <value>
+                <fullName>Toninho (supertroco)</fullName>
+                <default>false</default>
+                <label>Toninho (supertroco)</label>
+            </value>
+            <value>
+                <fullName>Willian Rocha</fullName>
+                <default>false</default>
+                <label>Willian Rocha</label>
+            </value>
+            <value>
+                <fullName>Diego Vieira</fullName>
+                <default>false</default>
+                <label>Diego Vieira</label>
+            </value>
+            <value>
+                <fullName>Bruno Santana</fullName>
+                <default>false</default>
+                <label>Bruno Santana</label>
+            </value>
+            <value>
+                <fullName>Alcides (Cidinho)</fullName>
+                <default>false</default>
+                <label>Alcides (Cidinho)</label>
+            </value>
+            <value>
+                <fullName>Canais De Serviços</fullName>
+                <default>false</default>
+                <label>Canais De Serviços</label>
+            </value>
+            <value>
+                <fullName>Avanço</fullName>
+                <default>false</default>
+                <label>Avanço</label>
+            </value>
+            <value>
+                <fullName>BlueDiv</fullName>
+                <default>false</default>
+                <label>BlueDiv</label>
+            </value>
+            <value>
+                <fullName>Gz Sistemas</fullName>
+                <default>false</default>
+                <label>Gz Sistemas</label>
+            </value>
+            <value>
+                <fullName>Zanthus</fullName>
+                <default>false</default>
+                <label>Zanthus</label>
+            </value>
+            <value>
+                <fullName>Led Informatica</fullName>
+                <default>false</default>
+                <label>Led Informatica</label>
+            </value>
+            <value>
+                <fullName>VS Solutions</fullName>
+                <default>false</default>
+                <label>VS Solutions</label>
+            </value>
+            <value>
+                <fullName>ValidCode</fullName>
+                <default>false</default>
+                <label>ValidCode</label>
+            </value>
+            <value>
+                <fullName>Auticomp</fullName>
+                <default>false</default>
+                <label>Auticomp</label>
+            </value>
+            <value>
+                <fullName>RCD11 (Rogerio)</fullName>
+                <default>false</default>
+                <label>RCD11 (Rogerio)</label>
+            </value>
+            <value>
+                <fullName>Gil</fullName>
+                <default>false</default>
+                <label>Gil</label>
+            </value>
+            <value>
+                <fullName>Bauer</fullName>
+                <default>false</default>
+                <label>Bauer</label>
+            </value>
+            <value>
+                <fullName>PDVTEC</fullName>
+                <default>false</default>
+                <label>PDVTEC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
