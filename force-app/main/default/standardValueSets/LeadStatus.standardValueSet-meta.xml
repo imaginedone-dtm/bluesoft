@@ -10,18 +10,21 @@
     <standardValue>
         <fullName>Em_Qualificacao</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Em Qualificacao</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
         <fullName>Contactado</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Contactado</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
         <fullName>Reuniao_Agendada</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Reuniao Agendada</label>
         <converted>false</converted>
     </standardValue>
@@ -34,7 +37,26 @@
     <standardValue>
         <fullName>Desqualificado</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Desqualificado</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nutricao</fullName>
+        <default>false</default>
+        <label>Nutrição</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualificacao</fullName>
+        <default>false</default>
+        <label>Qualificação</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nao_Qualificado</fullName>
+        <default>false</default>
+        <label>Não Qualificado</label>
         <converted>false</converted>
     </standardValue>
 </StandardValueSet>

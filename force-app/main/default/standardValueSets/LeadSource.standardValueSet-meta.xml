@@ -4,61 +4,103 @@
     <standardValue>
         <fullName>Site_institucional</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Site institucional</label>
     </standardValue>
     <standardValue>
         <fullName>Google_Ads</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Google Ads</label>
     </standardValue>
     <standardValue>
         <fullName>LinkedIn</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>LinkedIn</label>
     </standardValue>
     <standardValue>
         <fullName>Indicacao_cliente</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Indicacao de cliente</label>
     </standardValue>
     <standardValue>
         <fullName>Indicacao_parceiro</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Indicacao de parceiro</label>
     </standardValue>
     <standardValue>
         <fullName>Evento_feira</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Evento/feira</label>
     </standardValue>
     <standardValue>
         <fullName>WhatsApp_inbound</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>WhatsApp inbound</label>
     </standardValue>
     <standardValue>
         <fullName>Email_marketing</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>E-mail marketing</label>
     </standardValue>
     <standardValue>
         <fullName>Trial_Acelerato</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Trial Acelerato</label>
     </standardValue>
     <standardValue>
         <fullName>Prospeccao_ativa</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Prospeccao ativa</label>
     </standardValue>
     <standardValue>
         <fullName>Telefone</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Telefone</label>
     </standardValue>
     <standardValue>
         <fullName>Chat_site</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Chat do site</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Evento</fullName>
+        <default>false</default>
+        <label>Evento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SDR</fullName>
+        <default>false</default>
+        <label>SDR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound</fullName>
+        <default>false</default>
+        <label>Inbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Indicacao_de_cliente</fullName>
+        <default>false</default>
+        <label>Indicação de cliente</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Indicacao_de_parceiro</fullName>
+        <default>false</default>
+        <label>Indicação de parceiro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finder</fullName>
+        <default>false</default>
+        <label>Finder</label>
     </standardValue>
 </StandardValueSet>

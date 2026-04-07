@@ -4,26 +4,31 @@
     <standardValue>
         <fullName>Agricultura</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Agricultura</label>
     </standardValue>
     <standardValue>
         <fullName>Alimentos_e_Bebidas</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Alimentos e Bebidas</label>
     </standardValue>
     <standardValue>
         <fullName>Bancos</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Bancos</label>
     </standardValue>
     <standardValue>
         <fullName>Biotecnologia</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Biotecnologia</label>
     </standardValue>
     <standardValue>
         <fullName>Comunicacoes</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Comunicações</label>
     </standardValue>
     <standardValue>
@@ -34,6 +39,7 @@
     <standardValue>
         <fullName>Consultoria</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Consultoria</label>
     </standardValue>
     <standardValue>
@@ -44,106 +50,222 @@
     <standardValue>
         <fullName>Eletronicos</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Eletrônicos</label>
     </standardValue>
     <standardValue>
         <fullName>Energia</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Energia</label>
     </standardValue>
     <standardValue>
         <fullName>Engenharia</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Engenharia</label>
     </standardValue>
     <standardValue>
         <fullName>Entretenimento</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Entretenimento</label>
     </standardValue>
     <standardValue>
         <fullName>Financas</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Finanças</label>
     </standardValue>
     <standardValue>
         <fullName>Governo</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Governo</label>
     </standardValue>
     <standardValue>
         <fullName>Hotelaria</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Hotelaria</label>
     </standardValue>
     <standardValue>
         <fullName>Industria</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Indústria</label>
     </standardValue>
     <standardValue>
         <fullName>Meio_Ambiente</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Meio Ambiente</label>
     </standardValue>
     <standardValue>
         <fullName>Midia</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Mídia</label>
     </standardValue>
     <standardValue>
         <fullName>Quimica</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Química</label>
     </standardValue>
     <standardValue>
         <fullName>Saude</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Saúde</label>
     </standardValue>
     <standardValue>
         <fullName>Seguros</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Seguros</label>
     </standardValue>
     <standardValue>
         <fullName>Sem_Fins_Lucrativos</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Sem Fins Lucrativos</label>
     </standardValue>
     <standardValue>
         <fullName>Servicos_Publicos</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Serviços Públicos</label>
     </standardValue>
     <standardValue>
         <fullName>Tecnologia</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Tecnologia</label>
     </standardValue>
     <standardValue>
         <fullName>Telecomunicacoes</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Telecomunicações</label>
     </standardValue>
     <standardValue>
         <fullName>Transporte</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Transporte</label>
     </standardValue>
     <standardValue>
         <fullName>Varejo</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Varejo</label>
     </standardValue>
     <standardValue>
         <fullName>Vestuario</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Vestuário</label>
     </standardValue>
     <standardValue>
         <fullName>Outros</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Outros</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Administracao_Publica</fullName>
+        <default>false</default>
+        <label>Administração pública</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agricultura_Pecuaria_Silvicultura</fullName>
+        <default>false</default>
+        <label>Agricultura, pecuária e silvicultura</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Atacado</fullName>
+        <default>false</default>
+        <label>Atacado</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Empresas_de_Holding</fullName>
+        <default>false</default>
+        <label>Empresas de holding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fabricacao</fullName>
+        <default>false</default>
+        <label>Fabricação</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitais_Servicos_Saude</fullName>
+        <default>false</default>
+        <label>Hospitais e serviços de saúde</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industria_de_Entretenimento</fullName>
+        <default>false</default>
+        <label>Indústria de entretenimento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Petroleo_Gas_Mineracao</fullName>
+        <default>false</default>
+        <label>Petróleo, gás e mineração</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servico_de_Alojamento</fullName>
+        <default>false</default>
+        <label>Serviço de alojamento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicos</fullName>
+        <default>false</default>
+        <label>Serviços</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicos_Administrativos_Suporte</fullName>
+        <default>false</default>
+        <label>Serviços administrativos e de suporte</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicos_ao_Consumidor</fullName>
+        <default>false</default>
+        <label>Serviços ao consumidor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicos_Financeiros</fullName>
+        <default>false</default>
+        <label>Serviços financeiros</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicos_Profissionais</fullName>
+        <default>false</default>
+        <label>Serviços profissionais</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicos_Locacao_Imoveis_Equipamentos</fullName>
+        <default>false</default>
+        <label>Serviços de locação de imóveis e equipamentos</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tecnologia_Informacao_Midia</fullName>
+        <default>false</default>
+        <label>Tecnologia, informação e mídia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transporte_Logistica_Armazenamento</fullName>
+        <default>false</default>
+        <label>Transporte, logística, cadeia de abastecimento e armazenamento</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Varejo_Alimentar</fullName>
+        <default>false</default>
+        <label>Varejo - Alimentar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Varejo_Nao_Alimentar</fullName>
+        <default>false</default>
+        <label>Varejo -  Não Alimentar</label>
     </standardValue>
 </StandardValueSet>
