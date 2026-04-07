@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChecklistExecucao__c</fullName>
+    <label>Checklist &amp; Execução</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acelerato</fullName>
+                <default>false</default>
+                <label>Acelerato</label>
+            </value>
+            <value>
+                <fullName>Checklist Fácil</fullName>
+                <default>false</default>
+                <label>Checklist Fácil</label>
+            </value>
+            <value>
+                <fullName>Moki</fullName>
+                <default>false</default>
+                <label>Moki</label>
+            </value>
+            <value>
+                <fullName>Octopo</fullName>
+                <default>false</default>
+                <label>Octopo</label>
+            </value>
+            <value>
+                <fullName>Reflexys</fullName>
+                <default>false</default>
+                <label>Reflexys</label>
+            </value>
+            <value>
+                <fullName>Sults Checklist</fullName>
+                <default>false</default>
+                <label>Sults Checklist</label>
+            </value>
+            <value>
+                <fullName>Tlantic</fullName>
+                <default>false</default>
+                <label>Tlantic</label>
+            </value>
+            <value>
+                <fullName>Yoobic</fullName>
+                <default>false</default>
+                <label>Yoobic</label>
+            </value>
+            <value>
+                <fullName>Checkbits</fullName>
+                <default>false</default>
+                <label>Checkbits</label>
+            </value>
+            <value>
+                <fullName>8Quali</fullName>
+                <default>false</default>
+                <label>8Quali</label>
+            </value>
+            <value>
+                <fullName>iAuditor</fullName>
+                <default>false</default>
+                <label>iAuditor</label>
+            </value>
+            <value>
+                <fullName>QT9 QMS</fullName>
+                <default>false</default>
+                <label>QT9 QMS</label>
+            </value>
+            <value>
+                <fullName>Sismetro</fullName>
+                <default>false</default>
+                <label>Sismetro</label>
+            </value>
+            <value>
+                <fullName>Não possui ferramenta</fullName>
+                <default>false</default>
+                <label>Não possui ferramenta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

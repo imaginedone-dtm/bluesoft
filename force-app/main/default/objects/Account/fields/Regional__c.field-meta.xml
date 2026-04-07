@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regional__c</fullName>
+    <description>Regional de atuação</description>
+    <label>Regional</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Distrital Leste</fullName>
+                <default>false</default>
+                <label>Distrital Leste</label>
+            </value>
+            <value>
+                <fullName>Distrital São Paulo</fullName>
+                <default>false</default>
+                <label>Distrital São Paulo</label>
+            </value>
+            <value>
+                <fullName>Distrital Sul</fullName>
+                <default>false</default>
+                <label>Distrital Sul</label>
+            </value>
+            <value>
+                <fullName>Regional ABC</fullName>
+                <default>false</default>
+                <label>Regional ABC</label>
+            </value>
+            <value>
+                <fullName>Regional Araçatuba</fullName>
+                <default>false</default>
+                <label>Regional Araçatuba</label>
+            </value>
+            <value>
+                <fullName>Baixada Santista</fullName>
+                <default>false</default>
+                <label>Baixada Santista</label>
+            </value>
+            <value>
+                <fullName>Bauru</fullName>
+                <default>false</default>
+                <label>Bauru</label>
+            </value>
+            <value>
+                <fullName>Campinas</fullName>
+                <default>false</default>
+                <label>Campinas</label>
+            </value>
+            <value>
+                <fullName>Guarulhos</fullName>
+                <default>false</default>
+                <label>Guarulhos</label>
+            </value>
+            <value>
+                <fullName>Marília</fullName>
+                <default>false</default>
+                <label>Marília</label>
+            </value>
+            <value>
+                <fullName>Osasco</fullName>
+                <default>false</default>
+                <label>Osasco</label>
+            </value>
+            <value>
+                <fullName>Presidente Prudente</fullName>
+                <default>false</default>
+                <label>Presidente Prudente</label>
+            </value>
+            <value>
+                <fullName>Ribeirão Preto</fullName>
+                <default>false</default>
+                <label>Ribeirão Preto</label>
+            </value>
+            <value>
+                <fullName>São José do Rio Preto</fullName>
+                <default>false</default>
+                <label>São José do Rio Preto</label>
+            </value>
+            <value>
+                <fullName>Sorocaba</fullName>
+                <default>false</default>
+                <label>Sorocaba</label>
+            </value>
+            <value>
+                <fullName>Vale do Paraíba</fullName>
+                <default>false</default>
+                <label>Vale do Paraíba</label>
+            </value>
+            <value>
+                <fullName>Outros Estados</fullName>
+                <default>false</default>
+                <label>Outros Estados</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

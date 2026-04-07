@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fase_Acelerato__c</fullName>
+    <label>Fase Acelerato</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apresentação</fullName>
+                <default>false</default>
+                <label>Apresentação</label>
+            </value>
+            <value>
+                <fullName>Follow-up</fullName>
+                <default>false</default>
+                <label>Follow-up</label>
+            </value>
+            <value>
+                <fullName>Monitoramento</fullName>
+                <default>false</default>
+                <label>Monitoramento</label>
+            </value>
+            <value>
+                <fullName>Negociação Avançada</fullName>
+                <default>false</default>
+                <label>Negociação Avançada</label>
+            </value>
+            <value>
+                <fullName>Nutrição</fullName>
+                <default>false</default>
+                <label>Nutrição</label>
+            </value>
+            <value>
+                <fullName>Pedido de Reunião</fullName>
+                <default>false</default>
+                <label>Pedido de Reunião</label>
+            </value>
+            <value>
+                <fullName>Perdidos ERP</fullName>
+                <default>false</default>
+                <label>Perdidos ERP</label>
+            </value>
+            <value>
+                <fullName>Proposta enviada</fullName>
+                <default>false</default>
+                <label>Proposta enviada</label>
+            </value>
+            <value>
+                <fullName>Qualificação</fullName>
+                <default>false</default>
+                <label>Qualificação</label>
+            </value>
+            <value>
+                <fullName>Reagendar</fullName>
+                <default>false</default>
+                <label>Reagendar</label>
+            </value>
+            <value>
+                <fullName>Reunião para avançar | Decisor</fullName>
+                <default>false</default>
+                <label>Reunião para avançar | Decisor</label>
+            </value>
+            <value>
+                <fullName>Teste/ Validação</fullName>
+                <default>false</default>
+                <label>Teste/ Validação</label>
+            </value>
+            <value>
+                <fullName>Trial</fullName>
+                <default>false</default>
+                <label>Trial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

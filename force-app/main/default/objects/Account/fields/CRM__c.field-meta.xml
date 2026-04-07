@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRM__c</fullName>
+    <label>CRM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cresce Vendas</fullName>
+                <default>false</default>
+                <label>Cresce Vendas</label>
+            </value>
+            <value>
+                <fullName>Idever</fullName>
+                <default>false</default>
+                <label>Idever</label>
+            </value>
+            <value>
+                <fullName>Izio</fullName>
+                <default>false</default>
+                <label>Izio</label>
+            </value>
+            <value>
+                <fullName>Mercafácil</fullName>
+                <default>false</default>
+                <label>Mercafácil</label>
+            </value>
+            <value>
+                <fullName>Propz</fullName>
+                <default>false</default>
+                <label>Propz</label>
+            </value>
+            <value>
+                <fullName>Regex Solutions</fullName>
+                <default>false</default>
+                <label>Regex Solutions</label>
+            </value>
+            <value>
+                <fullName>Vórtice</fullName>
+                <default>false</default>
+                <label>Vórtice</label>
+            </value>
+            <value>
+                <fullName>Zoombox</fullName>
+                <default>false</default>
+                <label>Zoombox</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

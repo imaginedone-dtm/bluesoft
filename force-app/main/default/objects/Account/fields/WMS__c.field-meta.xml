@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WMS__c</fullName>
+    <label>WMS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bluesoft</fullName>
+                <default>false</default>
+                <label>Bluesoft</label>
+            </value>
+            <value>
+                <fullName>FullSoft</fullName>
+                <default>false</default>
+                <label>FullSoft</label>
+            </value>
+            <value>
+                <fullName>Lumi Software</fullName>
+                <default>false</default>
+                <label>Lumi Software</label>
+            </value>
+            <value>
+                <fullName>MHA Sistemas</fullName>
+                <default>false</default>
+                <label>MHA Sistemas</label>
+            </value>
+            <value>
+                <fullName>Não possui</fullName>
+                <default>false</default>
+                <label>Não possui</label>
+            </value>
+            <value>
+                <fullName>Próprio</fullName>
+                <default>false</default>
+                <label>Próprio</label>
+            </value>
+            <value>
+                <fullName>RP Info</fullName>
+                <default>false</default>
+                <label>RP Info</label>
+            </value>
+            <value>
+                <fullName>Solidcon</fullName>
+                <default>false</default>
+                <label>Solidcon</label>
+            </value>
+            <value>
+                <fullName>TOTVS Consinco</fullName>
+                <default>false</default>
+                <label>TOTVS Consinco</label>
+            </value>
+            <value>
+                <fullName>TOTVS Winthor</fullName>
+                <default>false</default>
+                <label>TOTVS Winthor</label>
+            </value>
+            <value>
+                <fullName>Alcis</fullName>
+                <default>false</default>
+                <label>Alcis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

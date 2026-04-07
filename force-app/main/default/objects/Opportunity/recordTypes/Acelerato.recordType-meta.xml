@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acelerato</fullName>
+    <active>true</active>
+    <businessProcess>Acelerato</businessProcess>
+    <description>Oportunidades do produto Acelerato (SaaS help desk/service desk).</description>
+    <label>Acelerato</label>
+    <picklistValues>
+        <picklist>Fase_Acelerato__c</picklist>
+        <values>
+            <fullName>Apresentação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitoramento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negociação Avançada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nutrição</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pedido de Reunião</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perdidos ERP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposta enviada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualificação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reagendar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reunião para avançar %7C Decisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teste%2F Validação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Chat_site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email_marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evento_feira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google_Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicacao_cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indicacao_parceiro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospeccao_ativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site_institucional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telefone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trial_Acelerato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WhatsApp_inbound</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LinhaNegocio__c</picklist>
+        <values>
+            <fullName>Acelerato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluesoft</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Cadastro com informações incorretas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Checklist Fácil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Freshdesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou GLPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Jira</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Movidesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Octadesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Servicenow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou Tom Ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratou outro sistema recentemente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA mais robusta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integração com Whatsapp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrações</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Já é cliente Acelerato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não compareceu%2Fcancelou a reunião</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não possuímos - Gestão de Ativos robusta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não possuímos - Redes Sociais</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não possuímos determinada funcionalidade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Não responde nenhum tipo de follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Projeto Postergado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Satisfeito com o seu sistema no momento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem fit com a necessidade atual da empresa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem interesse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valor da proposta inviabilizou o projeto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scheduled_Via__c</picklist>
+        <values>
+            <fullName>E-mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eventos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ligação</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whatsapp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

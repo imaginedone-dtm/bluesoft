@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SistemaWhatsapp__c</fullName>
+    <label>Sistema de Whatsapp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Take Blip</fullName>
+                <default>false</default>
+                <label>Take Blip</label>
+            </value>
+            <value>
+                <fullName>Kommo</fullName>
+                <default>false</default>
+                <label>Kommo</label>
+            </value>
+            <value>
+                <fullName>Manychat</fullName>
+                <default>false</default>
+                <label>Manychat</label>
+            </value>
+            <value>
+                <fullName>Twilio</fullName>
+                <default>false</default>
+                <label>Twilio</label>
+            </value>
+            <value>
+                <fullName>BotConversa</fullName>
+                <default>false</default>
+                <label>BotConversa</label>
+            </value>
+            <value>
+                <fullName>ChatGuru</fullName>
+                <default>false</default>
+                <label>ChatGuru</label>
+            </value>
+            <value>
+                <fullName>chatPro</fullName>
+                <default>false</default>
+                <label>chatPro</label>
+            </value>
+            <value>
+                <fullName>UnderCHAT</fullName>
+                <default>false</default>
+                <label>UnderCHAT</label>
+            </value>
+            <value>
+                <fullName>Wati</fullName>
+                <default>false</default>
+                <label>Wati</label>
+            </value>
+            <value>
+                <fullName>Octadesk</fullName>
+                <default>false</default>
+                <label>Octadesk</label>
+            </value>
+            <value>
+                <fullName>Z-API</fullName>
+                <default>false</default>
+                <label>Z-API</label>
+            </value>
+            <value>
+                <fullName>Respond.io</fullName>
+                <default>false</default>
+                <label>Respond.io</label>
+            </value>
+            <value>
+                <fullName>DIGISAC</fullName>
+                <default>false</default>
+                <label>DIGISAC</label>
+            </value>
+            <value>
+                <fullName>Loopchat</fullName>
+                <default>false</default>
+                <label>Loopchat</label>
+            </value>
+            <value>
+                <fullName>RD Station Conversas</fullName>
+                <default>false</default>
+                <label>RD Station Conversas</label>
+            </value>
+            <value>
+                <fullName>360dialog</fullName>
+                <default>false</default>
+                <label>360dialog</label>
+            </value>
+            <value>
+                <fullName>Não possui ferramenta</fullName>
+                <default>false</default>
+                <label>Não possui ferramenta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

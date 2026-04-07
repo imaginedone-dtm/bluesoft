@@ -1,0 +1,62 @@
+/* tagsBadge — Badge styles aligned with SLDS color palette */
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px 0;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+/* 🔴 Error/Alert — BLACK LIST, NÃO QUALIFICADO */
+.tag-error {
+    background-color: #feded8;
+    color: #8c1b10;
+    border: 1px solid #f4c1b8;
+}
+
+/* 🟠 Warning — URGENTE, LEAD QUENTE */
+.tag-warning {
+    background-color: #fef0cd;
+    color: #8c6611;
+    border: 1px solid #f5d98a;
+}
+
+/* 🔵 Info — EM CONTATO, FUNIL SDR, INBOUND */
+.tag-info {
+    background-color: #d4edfc;
+    color: #0b5cab;
+    border: 1px solid #a8d6f5;
+}
+
+/* 🟢 Success — CLIENTE DA BASE, CLIENTE MOVIDESK */
+.tag-success {
+    background-color: #cff2d6;
+    color: #0e5c2f;
+    border: 1px solid #a3e2b0;
+}
+
+/* 🟡 Warm — LEAD MORNO, EM NUTRIÇÃO */
+.tag-warm {
+    background-color: #fce4d6;
+    color: #9c4b1c;
+    border: 1px solid #f5c9ab;
+}
+
+/* ⚪ Neutral/Default — all others */
+.tag-neutral {
+    background-color: #ecebea;
+    color: #444444;
+    border: 1px solid #d8d8d8;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERP_Bluesoft</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Apresentação</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contrato</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Negociação</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Overview ERP</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposta Assinada</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Relacionamento</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

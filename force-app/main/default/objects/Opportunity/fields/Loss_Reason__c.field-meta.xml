@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <label>Motivo da Perda</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cadastro com informações incorretas</fullName>
+                <default>false</default>
+                <label>Cadastro com informações incorretas</label>
+            </value>
+            <value>
+                <fullName>IA mais robusta</fullName>
+                <default>false</default>
+                <label>IA mais robusta</label>
+            </value>
+            <value>
+                <fullName>Contratou Checklist Fácil</fullName>
+                <default>false</default>
+                <label>Contratou Checklist Fácil</label>
+            </value>
+            <value>
+                <fullName>Contratou Freshdesk</fullName>
+                <default>false</default>
+                <label>Contratou Freshdesk</label>
+            </value>
+            <value>
+                <fullName>Contratou GLPI</fullName>
+                <default>false</default>
+                <label>Contratou GLPI</label>
+            </value>
+            <value>
+                <fullName>Contratou Movidesk</fullName>
+                <default>false</default>
+                <label>Contratou Movidesk</label>
+            </value>
+            <value>
+                <fullName>Contratou outro sistema recentemente</fullName>
+                <default>false</default>
+                <label>Contratou outro sistema recentemente</label>
+            </value>
+            <value>
+                <fullName>Contratou Servicenow</fullName>
+                <default>false</default>
+                <label>Contratou Servicenow</label>
+            </value>
+            <value>
+                <fullName>Contratou Tom Ticket</fullName>
+                <default>false</default>
+                <label>Contratou Tom Ticket</label>
+            </value>
+            <value>
+                <fullName>Contratou Octadesk</fullName>
+                <default>false</default>
+                <label>Contratou Octadesk</label>
+            </value>
+            <value>
+                <fullName>Contratou Jira</fullName>
+                <default>false</default>
+                <label>Contratou Jira</label>
+            </value>
+            <value>
+                <fullName>Integração com Whatsapp</fullName>
+                <default>false</default>
+                <label>Integração com Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Integrações</fullName>
+                <default>false</default>
+                <label>Integrações</label>
+            </value>
+            <value>
+                <fullName>Já é cliente Acelerato</fullName>
+                <default>false</default>
+                <label>Já é cliente Acelerato</label>
+            </value>
+            <value>
+                <fullName>Não compareceu/cancelou a reunião</fullName>
+                <default>false</default>
+                <label>Não compareceu/cancelou a reunião</label>
+            </value>
+            <value>
+                <fullName>Não possuímos - Gestão de Ativos robusta</fullName>
+                <default>false</default>
+                <label>Não possuímos - Gestão de Ativos robusta</label>
+            </value>
+            <value>
+                <fullName>Não possuímos - Redes Sociais</fullName>
+                <default>false</default>
+                <label>Não possuímos - Redes Sociais</label>
+            </value>
+            <value>
+                <fullName>Não possuímos determinada funcionalidade</fullName>
+                <default>false</default>
+                <label>Não possuímos determinada funcionalidade</label>
+            </value>
+            <value>
+                <fullName>Não responde nenhum tipo de follow up</fullName>
+                <default>false</default>
+                <label>Não responde nenhum tipo de follow up</label>
+            </value>
+            <value>
+                <fullName>Projeto Postergado</fullName>
+                <default>false</default>
+                <label>Projeto Postergado</label>
+            </value>
+            <value>
+                <fullName>Satisfeito com o seu sistema no momento</fullName>
+                <default>false</default>
+                <label>Satisfeito com o seu sistema no momento</label>
+            </value>
+            <value>
+                <fullName>Sem fit com a necessidade atual da empresa</fullName>
+                <default>false</default>
+                <label>Sem fit com a necessidade atual da empresa</label>
+            </value>
+            <value>
+                <fullName>Sem interesse</fullName>
+                <default>false</default>
+                <label>Sem interesse</label>
+            </value>
+            <value>
+                <fullName>Valor da proposta inviabilizou o projeto</fullName>
+                <default>false</default>
+                <label>Valor da proposta inviabilizou o projeto</label>
+            </value>
+            <value>
+                <fullName>Sem perfil</fullName>
+                <default>false</default>
+                <label>Sem perfil</label>
+            </value>
+            <value>
+                <fullName>Não responde nenhum tipo de follow-up</fullName>
+                <default>false</default>
+                <label>Não responde nenhum tipo de follow-up</label>
+            </value>
+            <value>
+                <fullName>Não conseguimos contato</fullName>
+                <default>false</default>
+                <label>Não conseguimos contato</label>
+            </value>
+            <value>
+                <fullName>Não é o momento para agendar reunião</fullName>
+                <default>false</default>
+                <label>Não é o momento para agendar reunião</label>
+            </value>
+            <value>
+                <fullName>Contratou outro ERP recentemente</fullName>
+                <default>false</default>
+                <label>Contratou outro ERP recentemente</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Fechou com o concorrente</fullName>
+                <default>false</default>
+                <label>Fechou com o concorrente</label>
+            </value>
+            <value>
+                <fullName>Sem abertura para trocar de ERP no momento</fullName>
+                <default>false</default>
+                <label>Sem abertura para trocar de ERP no momento</label>
+            </value>
+            <value>
+                <fullName>Interesse no Cosmos</fullName>
+                <default>false</default>
+                <label>Interesse no Cosmos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

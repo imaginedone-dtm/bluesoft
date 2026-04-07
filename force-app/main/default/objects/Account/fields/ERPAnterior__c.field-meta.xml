@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ERPAnterior__c</fullName>
+    <label>ERP Anterior</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bluesoft</fullName>
+                <default>false</default>
+                <label>Bluesoft</label>
+            </value>
+            <value>
+                <fullName>Celtaware</fullName>
+                <default>false</default>
+                <label>Celtaware</label>
+            </value>
+            <value>
+                <fullName>Ciss</fullName>
+                <default>false</default>
+                <label>Ciss</label>
+            </value>
+            <value>
+                <fullName>Controller</fullName>
+                <default>false</default>
+                <label>Controller</label>
+            </value>
+            <value>
+                <fullName>GCF Sistemas</fullName>
+                <default>false</default>
+                <label>GCF Sistemas</label>
+            </value>
+            <value>
+                <fullName>Guia Sistemas</fullName>
+                <default>false</default>
+                <label>Guia Sistemas</label>
+            </value>
+            <value>
+                <fullName>HappyBis</fullName>
+                <default>false</default>
+                <label>HappyBis</label>
+            </value>
+            <value>
+                <fullName>Hipcom</fullName>
+                <default>false</default>
+                <label>Hipcom</label>
+            </value>
+            <value>
+                <fullName>Intersolid</fullName>
+                <default>false</default>
+                <label>Intersolid</label>
+            </value>
+            <value>
+                <fullName>JRS Computação</fullName>
+                <default>false</default>
+                <label>JRS Computação</label>
+            </value>
+            <value>
+                <fullName>JSR Sistemas</fullName>
+                <default>false</default>
+                <label>JSR Sistemas</label>
+            </value>
+            <value>
+                <fullName>LBC</fullName>
+                <default>false</default>
+                <label>LBC</label>
+            </value>
+            <value>
+                <fullName>Linx</fullName>
+                <default>false</default>
+                <label>Linx</label>
+            </value>
+            <value>
+                <fullName>Logus</fullName>
+                <default>false</default>
+                <label>Logus</label>
+            </value>
+            <value>
+                <fullName>Mercatus</fullName>
+                <default>false</default>
+                <label>Mercatus</label>
+            </value>
+            <value>
+                <fullName>Odoo</fullName>
+                <default>false</default>
+                <label>Odoo</label>
+            </value>
+            <value>
+                <fullName>Patrimônio</fullName>
+                <default>false</default>
+                <label>Patrimônio</label>
+            </value>
+            <value>
+                <fullName>Pirâmide</fullName>
+                <default>false</default>
+                <label>Pirâmide</label>
+            </value>
+            <value>
+                <fullName>Próprio</fullName>
+                <default>false</default>
+                <label>Próprio</label>
+            </value>
+            <value>
+                <fullName>Rotac</fullName>
+                <default>false</default>
+                <label>Rotac</label>
+            </value>
+            <value>
+                <fullName>RPInfo</fullName>
+                <default>false</default>
+                <label>RPInfo</label>
+            </value>
+            <value>
+                <fullName>SAP B1</fullName>
+                <default>false</default>
+                <label>SAP B1</label>
+            </value>
+            <value>
+                <fullName>SAP S4HANA/ECC</fullName>
+                <default>false</default>
+                <label>SAP S4HANA/ECC</label>
+            </value>
+            <value>
+                <fullName>SGI Sistemas</fullName>
+                <default>false</default>
+                <label>SGI Sistemas</label>
+            </value>
+            <value>
+                <fullName>SisMoura</fullName>
+                <default>false</default>
+                <label>SisMoura</label>
+            </value>
+            <value>
+                <fullName>SuperEZ</fullName>
+                <default>false</default>
+                <label>SuperEZ</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target</label>
+            </value>
+            <value>
+                <fullName>TOTVS Consinco</fullName>
+                <default>false</default>
+                <label>TOTVS Consinco</label>
+            </value>
+            <value>
+                <fullName>TOTVS Protheus</fullName>
+                <default>false</default>
+                <label>TOTVS Protheus</label>
+            </value>
+            <value>
+                <fullName>TOTVS RMS</fullName>
+                <default>false</default>
+                <label>TOTVS RMS</label>
+            </value>
+            <value>
+                <fullName>TOTVS Winthor</fullName>
+                <default>false</default>
+                <label>TOTVS Winthor</label>
+            </value>
+            <value>
+                <fullName>Up Software</fullName>
+                <default>false</default>
+                <label>Up Software</label>
+            </value>
+            <value>
+                <fullName>VR Software</fullName>
+                <default>false</default>
+                <label>VR Software</label>
+            </value>
+            <value>
+                <fullName>Proton Sistemas</fullName>
+                <default>false</default>
+                <label>Proton Sistemas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

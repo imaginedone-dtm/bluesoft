@@ -10,8 +10,8 @@ Use este formato quando ja souber a branch, a org e os itens do manifesto:
 Iniciar processo de deploy
 
 Branch da tarefa: feature/...
-Org de dev (fonte): dev1-sandbox
-Org de destino: berrygood-homolog
+Org de dev (fonte): bluesoft-dev
+Org de destino: bluesoft-homolog
 
 Itens para o package-deploy.xml:
 - item 1
@@ -27,8 +27,8 @@ Use este formato quando quiser incluir regras adicionais para a execucao:
 Iniciar processo de deploy
 
 Branch da tarefa: feature/...
-Org de dev (fonte): dev1-sandbox
-Org de destino: berrygood-homolog
+Org de dev (fonte): bluesoft-dev
+Org de destino: bluesoft-homolog
 
 Itens para o package-deploy.xml:
 - item 1
@@ -49,8 +49,8 @@ Use este formato quando a branch ja estiver definida, mas a lista do manifesto a
 Iniciar processo de deploy
 
 Branch da tarefa: feature/...
-Org de dev (fonte): dev1-sandbox
-Org de destino: berrygood-homolog
+Org de dev (fonte): bluesoft-dev
+Org de destino: bluesoft-homolog
 
 Vou te passar os itens do manifesto em seguida.
 ```
@@ -63,8 +63,8 @@ Use este formato quando a subida nao for para homolog:
 Iniciar processo de deploy
 
 Branch da tarefa: feature/...
-Org de dev (fonte): dev1-sandbox
-Org de destino: producao
+Org de dev (fonte): bluesoft-dev
+Org de destino: bluesoft-prod
 
 Itens para o package-deploy.xml:
 - item 1

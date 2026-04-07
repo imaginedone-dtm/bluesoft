@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ecommerce__c</fullName>
+    <label>Ecommerce</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OSuper</fullName>
+                <default>false</default>
+                <label>OSuper</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
+            </value>
+            <value>
+                <fullName>Não possui</fullName>
+                <default>false</default>
+                <label>Não possui</label>
+            </value>
+            <value>
+                <fullName>Site Mercado</fullName>
+                <default>false</default>
+                <label>Site Mercado</label>
+            </value>
+            <value>
+                <fullName>Stoom</fullName>
+                <default>false</default>
+                <label>Stoom</label>
+            </value>
+            <value>
+                <fullName>Standalone</fullName>
+                <default>false</default>
+                <label>Standalone</label>
+            </value>
+            <value>
+                <fullName>Próprio</fullName>
+                <default>false</default>
+                <label>Próprio</label>
+            </value>
+            <value>
+                <fullName>Presence</fullName>
+                <default>false</default>
+                <label>Presence</label>
+            </value>
+            <value>
+                <fullName>PDVnet</fullName>
+                <default>false</default>
+                <label>PDVnet</label>
+            </value>
+            <value>
+                <fullName>Shoppub</fullName>
+                <default>false</default>
+                <label>Shoppub</label>
+            </value>
+            <value>
+                <fullName>Sicompra</fullName>
+                <default>false</default>
+                <label>Sicompra</label>
+            </value>
+            <value>
+                <fullName>TrayCommerce</fullName>
+                <default>false</default>
+                <label>TrayCommerce</label>
+            </value>
+            <value>
+                <fullName>Unigex</fullName>
+                <default>false</default>
+                <label>Unigex</label>
+            </value>
+            <value>
+                <fullName>VipCommerce</fullName>
+                <default>false</default>
+                <label>VipCommerce</label>
+            </value>
+            <value>
+                <fullName>VR Software</fullName>
+                <default>false</default>
+                <label>VR Software</label>
+            </value>
+            <value>
+                <fullName>Vtex</fullName>
+                <default>false</default>
+                <label>Vtex</label>
+            </value>
+            <value>
+                <fullName>Worksoft</fullName>
+                <default>false</default>
+                <label>Worksoft</label>
+            </value>
+            <value>
+                <fullName>Regex Solutions</fullName>
+                <default>false</default>
+                <label>Regex Solutions</label>
+            </value>
+            <value>
+                <fullName>Saurus</fullName>
+                <default>false</default>
+                <label>Saurus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

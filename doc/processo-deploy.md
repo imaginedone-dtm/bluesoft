@@ -45,7 +45,7 @@ Garantir que o deploy seja feito com escopo explicito, validacao manual do manif
 
 - Branch de trabalho: informada por voce a cada tarefa, conforme ClickUp
 - Org de dev (fonte): informada por voce em cada tarefa
-- Org de destino atual: `berrygood-homolog`
+- Org de destino atual: `bluesoft-homolog`
 - Org de destino futura: producao, quando voce solicitar explicitamente
 
 ## Como reutilizar em outros projetos

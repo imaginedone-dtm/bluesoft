@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FrenteCaixa__c</fullName>
+    <label>Frente de Caixa</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Angulo Sistemas</fullName>
+                <default>false</default>
+                <label>Angulo Sistemas</label>
+            </value>
+            <value>
+                <fullName>Arius</fullName>
+                <default>false</default>
+                <label>Arius</label>
+            </value>
+            <value>
+                <fullName>Avanço</fullName>
+                <default>false</default>
+                <label>Avanço</label>
+            </value>
+            <value>
+                <fullName>Bling</fullName>
+                <default>false</default>
+                <label>Bling</label>
+            </value>
+            <value>
+                <fullName>Casa Magalhães</fullName>
+                <default>false</default>
+                <label>Casa Magalhães</label>
+            </value>
+            <value>
+                <fullName>CeltaWare</fullName>
+                <default>false</default>
+                <label>CeltaWare</label>
+            </value>
+            <value>
+                <fullName>Ciss</fullName>
+                <default>false</default>
+                <label>Ciss</label>
+            </value>
+            <value>
+                <fullName>Citel</fullName>
+                <default>false</default>
+                <label>Citel</label>
+            </value>
+            <value>
+                <fullName>CPlus</fullName>
+                <default>false</default>
+                <label>CPlus</label>
+            </value>
+            <value>
+                <fullName>Data Soft</fullName>
+                <default>false</default>
+                <label>Data Soft</label>
+            </value>
+            <value>
+                <fullName>EASiCash</fullName>
+                <default>false</default>
+                <label>EASiCash</label>
+            </value>
+            <value>
+                <fullName>Emporium</fullName>
+                <default>false</default>
+                <label>Emporium</label>
+            </value>
+            <value>
+                <fullName>Futura</fullName>
+                <default>false</default>
+                <label>Futura</label>
+            </value>
+            <value>
+                <fullName>Gix Pyxis (SHX)</fullName>
+                <default>false</default>
+                <label>Gix Pyxis (SHX)</label>
+            </value>
+            <value>
+                <fullName>GZ Sistemas</fullName>
+                <default>false</default>
+                <label>GZ Sistemas</label>
+            </value>
+            <value>
+                <fullName>HappyBiz</fullName>
+                <default>false</default>
+                <label>HappyBiz</label>
+            </value>
+            <value>
+                <fullName>Hipcom</fullName>
+                <default>false</default>
+                <label>Hipcom</label>
+            </value>
+            <value>
+                <fullName>HR Tech</fullName>
+                <default>false</default>
+                <label>HR Tech</label>
+            </value>
+            <value>
+                <fullName>Imperium</fullName>
+                <default>false</default>
+                <label>Imperium</label>
+            </value>
+            <value>
+                <fullName>Intersolid</fullName>
+                <default>false</default>
+                <label>Intersolid</label>
+            </value>
+            <value>
+                <fullName>KW</fullName>
+                <default>false</default>
+                <label>KW</label>
+            </value>
+            <value>
+                <fullName>LBC Sistemas</fullName>
+                <default>false</default>
+                <label>LBC Sistemas</label>
+            </value>
+            <value>
+                <fullName>Linx</fullName>
+                <default>false</default>
+                <label>Linx</label>
+            </value>
+            <value>
+                <fullName>Logus</fullName>
+                <default>false</default>
+                <label>Logus</label>
+            </value>
+            <value>
+                <fullName>Lumi Software</fullName>
+                <default>false</default>
+                <label>Lumi Software</label>
+            </value>
+            <value>
+                <fullName>MaxiPós</fullName>
+                <default>false</default>
+                <label>MaxiPós</label>
+            </value>
+            <value>
+                <fullName>Mercatus</fullName>
+                <default>false</default>
+                <label>Mercatus</label>
+            </value>
+            <value>
+                <fullName>Mobne (Consinco)</fullName>
+                <default>false</default>
+                <label>Mobne (Consinco)</label>
+            </value>
+            <value>
+                <fullName>NextSoft</fullName>
+                <default>false</default>
+                <label>NextSoft</label>
+            </value>
+            <value>
+                <fullName>Não utiliza PDV</fullName>
+                <default>false</default>
+                <label>Não utiliza PDV</label>
+            </value>
+            <value>
+                <fullName>Odoo</fullName>
+                <default>false</default>
+                <label>Odoo</label>
+            </value>
+            <value>
+                <fullName>Patrimônio Tecnologia</fullName>
+                <default>false</default>
+                <label>Patrimônio Tecnologia</label>
+            </value>
+            <value>
+                <fullName>PDVSysmo</fullName>
+                <default>false</default>
+                <label>PDVSysmo</label>
+            </value>
+            <value>
+                <fullName>Processa Sistemas</fullName>
+                <default>false</default>
+                <label>Processa Sistemas</label>
+            </value>
+            <value>
+                <fullName>Procfit</fullName>
+                <default>false</default>
+                <label>Procfit</label>
+            </value>
+            <value>
+                <fullName>Próprio</fullName>
+                <default>false</default>
+                <label>Próprio</label>
+            </value>
+            <value>
+                <fullName>Próton Sistemas</fullName>
+                <default>false</default>
+                <label>Próton Sistemas</label>
+            </value>
+            <value>
+                <fullName>RP Info</fullName>
+                <default>false</default>
+                <label>RP Info</label>
+            </value>
+            <value>
+                <fullName>RP Telecom</fullName>
+                <default>false</default>
+                <label>RP Telecom</label>
+            </value>
+            <value>
+                <fullName>RW Informática</fullName>
+                <default>false</default>
+                <label>RW Informática</label>
+            </value>
+            <value>
+                <fullName>SD Informática</fullName>
+                <default>false</default>
+                <label>SD Informática</label>
+            </value>
+            <value>
+                <fullName>SG Sistemas</fullName>
+                <default>false</default>
+                <label>SG Sistemas</label>
+            </value>
+            <value>
+                <fullName>Siac Sistemas</fullName>
+                <default>false</default>
+                <label>Siac Sistemas</label>
+            </value>
+            <value>
+                <fullName>Simus</fullName>
+                <default>false</default>
+                <label>Simus</label>
+            </value>
+            <value>
+                <fullName>Socin</fullName>
+                <default>false</default>
+                <label>Socin</label>
+            </value>
+            <value>
+                <fullName>Solidcon</fullName>
+                <default>false</default>
+                <label>Solidcon</label>
+            </value>
+            <value>
+                <fullName>SysPDV</fullName>
+                <default>false</default>
+                <label>SysPDV</label>
+            </value>
+            <value>
+                <fullName>TOTVS</fullName>
+                <default>false</default>
+                <label>TOTVS</label>
+            </value>
+            <value>
+                <fullName>TOTVS Consinco</fullName>
+                <default>false</default>
+                <label>TOTVS Consinco</label>
+            </value>
+            <value>
+                <fullName>TOTVS Winthor</fullName>
+                <default>false</default>
+                <label>TOTVS Winthor</label>
+            </value>
+            <value>
+                <fullName>Visual Data</fullName>
+                <default>false</default>
+                <label>Visual Data</label>
+            </value>
+            <value>
+                <fullName>Visual Mix</fullName>
+                <default>false</default>
+                <label>Visual Mix</label>
+            </value>
+            <value>
+                <fullName>VMpay</fullName>
+                <default>false</default>
+                <label>VMpay</label>
+            </value>
+            <value>
+                <fullName>VR Software</fullName>
+                <default>false</default>
+                <label>VR Software</label>
+            </value>
+            <value>
+                <fullName>Xpert</fullName>
+                <default>false</default>
+                <label>Xpert</label>
+            </value>
+            <value>
+                <fullName>Zanthus</fullName>
+                <default>false</default>
+                <label>Zanthus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

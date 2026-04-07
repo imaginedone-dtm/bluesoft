@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dores__c</fullName>
+    <label>Dores</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preço Alto (Dólar) do Sistema Atual</fullName>
+                <default>false</default>
+                <label>Preço Alto (Dólar) do Sistema Atual</label>
+            </value>
+            <value>
+                <fullName>Falta de Funcionalidades</fullName>
+                <default>false</default>
+                <label>Falta de Funcionalidades</label>
+            </value>
+            <value>
+                <fullName>Falta de Relatórios</fullName>
+                <default>false</default>
+                <label>Falta de Relatórios</label>
+            </value>
+            <value>
+                <fullName>Sistema Integrados (Atendimento e Projetos)</fullName>
+                <default>false</default>
+                <label>Sistema Integrados (Atendimento e Projetos)</label>
+            </value>
+            <value>
+                <fullName>Não possuem sistema</fullName>
+                <default>false</default>
+                <label>Não possuem sistema</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
