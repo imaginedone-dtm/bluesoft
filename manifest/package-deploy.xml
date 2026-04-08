@@ -16,5 +16,14 @@
         <name>FlexiPage</name>
     </types>
 
+    <types>
+        <members>PS_Diretoria</members>
+        <members>PS_Executivo</members>
+        <members>PS_Gerencia</members>
+        <members>PS_SDR</members>
+        <members>PS_Suporte</members>
+        <name>PermissionSet</name>
+    </types>
+
     <version>64.0</version>
 </Package>
