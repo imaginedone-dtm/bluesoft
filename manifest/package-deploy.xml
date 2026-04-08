@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    manifest/package-deploy.xml — Deploy BluesoftDEV → Homologação
-    Atualizado: 2026-04-07
-    Branch: feature/86agppje1-v2-homolog
-    Escopo: Permission Sets (5 itens)
-
-    Dependência: os CustomFields de Account/Contact/Lead/Opportunity
-    devem já estar presentes em bluesoft-homolog (entregues na onda anterior).
--->
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity.Fase_Acelerato__c</members>
+        <name>CustomField</name>
+    </types>
 
-    <!-- ===== Permission Sets (5 itens) ===== -->
+    <types>
+        <members>Opportunity-Opportunity Layout Acelerato</members>
+        <members>Opportunity-Opportunity Layout ERP Bluesoft</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>OpportunityRecordPageERPBluesoft</members>
+        <name>FlexiPage</name>
+    </types>
 
     <types>
         <members>PS_Diretoria</members>
