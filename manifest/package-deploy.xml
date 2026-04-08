@@ -1,178 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    manifest/package-deploy.xml — Deploy BluesoftDEV → Homologação
-    Atualizado: 2026-04-07
-    Referência: doc/resposta-1775489727.md (inventário de 133 componentes)
-
-    CustomField atualizado com escopo completo:
-    Account (32), Contact (1), Lead (14), Opportunity (7).
-
-    ListView (7 itens): excluídos intencionalmente — ver plano revisado (resposta-1775489727-revisada.md).
-    Profile (Onda 4B): comentado — incluir somente com aprovação explícita.
--->
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-
-    <!-- ===== ONDA 1: Fundação (Roles, ValueSets, ContentAsset) ===== -->
-
     <types>
-        <members>Tags</members>
-        <name>GlobalValueSet</name>
-    </types>
-
-    <types>
-        <members>OpportunityStage</members>
-        <members>LeadStatus</members>
-        <members>LeadSource</members>
-        <members>Industry</members>
-        <members>AccountType</members>
-        <members>AccountRating</members>
-        <name>StandardValueSet</name>
-    </types>
-
-    <types>
-        <members>bluesoft_logo_600x120</members>
-        <name>ContentAsset</name>
-    </types>
-
-    <!-- ===== ONDA 2: Modelo de Dados (Campos, Regras, Processos, RTs) ===== -->
-
-    <types>
-        <!-- Account (32 campos) -->
-        <members>Account.AtivacaoERP__c</members>
-        <members>Account.CD__c</members>
-        <members>Account.CentralCompras__c</members>
-        <members>Account.ChecklistExecucao__c</members>
-        <members>Account.CNPJ__c</members>
-        <members>Account.CRM__c</members>
-        <members>Account.Dores__c</members>
-        <members>Account.Ecommerce__c</members>
-        <members>Account.ERP__c</members>
-        <members>Account.ERPAnterior__c</members>
-        <members>Account.EtiquetasAcelerato__c</members>
-        <members>Account.Eventos__c</members>
-        <members>Account.Finder__c</members>
-        <members>Account.Focus_Area__c</members>
-        <members>Account.FrenteCaixa__c</members>
-        <members>Account.LinhaNegocio__c</members>
-        <members>Account.ModuloInteresse__c</members>
-        <members>Account.NumeroLojas__c</members>
-        <members>Account.PDVs__c</members>
-        <members>Account.QualificadoAcelerato__c</members>
-        <members>Account.QualificadoBluesoft__c</members>
-        <members>Account.RamoAtividade__c</members>
-        <members>Account.RazaoSocial__c</members>
-        <members>Account.Regional__c</members>
-        <members>Account.Relacionamento__c</members>
-        <members>Account.SistemaHelpDesk__c</members>
-        <members>Account.SistemaProjetos__c</members>
-        <members>Account.SistemaWhatsapp__c</members>
-        <members>Account.StatusERP__c</members>
-        <members>Account.Tags__c</members>
-        <members>Account.Tamanho__c</members>
-        <members>Account.WMS__c</members>
-        <!-- Contact (1 campo) -->
-        <members>Contact.LinhaNegocio__c</members>
-        <!-- Lead (14 campos) -->
-        <members>Lead.CNPJ__c</members>
-        <members>Lead.Company_Size__c</members>
-        <members>Lead.Disqualification_Reason__c</members>
-        <members>Lead.Evento__c</members>
-        <members>Lead.Focus_Area__c</members>
-        <members>Lead.Last_Contact_Date__c</members>
-        <members>Lead.Lead_Source_Detail__c</members>
-        <members>Lead.LinhaNegocio__c</members>
-        <members>Lead.Product_Interest__c</members>
-        <members>Lead.Qualification_Notes__c</members>
-        <members>Lead.Segment__c</members>
-        <members>Lead.Tags__c</members>
-        <members>Lead.TotalPDVs__c</members>
-        <members>Lead.UnidadesLojas__c</members>
-        <!-- Opportunity (7 campos) -->
-        <members>Opportunity.Budget_Confirmed__c</members>
-        <members>Opportunity.Discovery_Completed__c</members>
         <members>Opportunity.Fase_Acelerato__c</members>
-        <members>Opportunity.LinhaNegocio__c</members>
-        <members>Opportunity.Loss_Reason__c</members>
-        <members>Opportunity.ROI_Analysis_Completed__c</members>
-        <members>Opportunity.Scheduled_Via__c</members>
         <name>CustomField</name>
     </types>
 
     <types>
-        <members>Account.CNPJ_Somente_Numeros</members>
-        <members>Lead.CNPJ_Somente_Numeros</members>
-        <members>Opportunity.Require_Loss_Reason_When_Closed_Lost</members>
-        <name>ValidationRule</name>
-    </types>
-
-    <types>
-        <members>Opportunity.Acelerato</members>
-        <members>Opportunity.ERP_Bluesoft</members>
-        <name>BusinessProcess</name>
-    </types>
-
-    <types>
-        <members>Opportunity.Acelerato</members>
-        <members>Opportunity.ERP</members>
-        <name>RecordType</name>
-    </types>
-
-    <types>
-        <members>Opportunity.New_Awesome_Companct_Layout</members>
-        <name>CompactLayout</name>
-    </types>
-
-    <!-- ===== ONDA 3A: UI Core (LWC, Layouts, Flexipages, Paths) ===== -->
-
-    <types>
-        <members>tagsBadge</members>
-        <name>LightningComponentBundle</name>
-    </types>
-
-    <types>
-        <members>Account-Account Layout</members>
-        <members>Contact-Contact Layout</members>
-        <members>Lead-Lead Layout</members>
         <members>Opportunity-Opportunity Layout Acelerato</members>
         <members>Opportunity-Opportunity Layout ERP Bluesoft</members>
         <name>Layout</name>
     </types>
 
     <types>
-        <members>ContaFlexipage</members>
-        <members>ContatoFlexipage</members>
-        <members>LeadFlexipage</members>
-        <members>OportunidadePaginaRegistroAcelerato</members>
         <members>OpportunityRecordPageERPBluesoft</members>
         <name>FlexiPage</name>
     </types>
-
-    <types>
-        <members>Acelerato</members>
-        <members>ERP_Bluesoft</members>
-        <members>Default</members>
-        <name>PathAssistant</name>
-    </types>
-
-    <!-- ===== ONDA 4A: Segurança — Permission Sets ===== -->
-
-    <types>
-        <members>PS_Diretoria</members>
-        <members>PS_Executivo</members>
-        <members>PS_Gerencia</members>
-        <members>PS_SDR</members>
-        <members>PS_Suporte</members>
-        <name>PermissionSet</name>
-    </types>
-
-    <!-- ===== ONDA 4B: Profiles — CONDICIONAL (alto risco de sobrescrita de FLS) =====
-    Descomentar somente após aprovação explícita conforme plano revisado.
-    <types>
-        <members>Admin</members>
-        <members>Usuário Bluesoft</members>
-        <name>Profile</name>
-    </types>
-    -->
 
     <version>64.0</version>
 </Package>
