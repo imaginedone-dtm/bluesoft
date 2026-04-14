@@ -27,6 +27,10 @@
         <default>false</default>
     </values>
     <values>
+        <fullName>Reunião Agendada</fullName>
+        <default>false</default>
+    </values>
+    <values>
         <fullName>Reunião para avançar %7C Decisor</fullName>
         <default>false</default>
     </values>
