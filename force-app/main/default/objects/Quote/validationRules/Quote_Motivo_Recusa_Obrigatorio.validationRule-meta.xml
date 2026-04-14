@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Motivo_Recusa_Obrigatorio</fullName>
+    <active>true</active>
+    <description>Obriga o preenchimento do campo Motivo da Recusa quando o status da cotação for alterado para Recusada pelo cliente.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &quot;Recusada pelo cliente&quot;),
+    ISBLANK(TEXT(Motivo_da_Recusa__c))
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_da_Recusa__c</errorDisplayField>
+    <errorMessage>O campo &quot;Motivo da Recusa&quot; é obrigatório quando a cotação é recusada pelo cliente.</errorMessage>
+</ValidationRule>

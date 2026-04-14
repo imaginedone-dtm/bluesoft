@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_da_Recusa__c</fullName>
+    <label>Motivo da Recusa</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preço não competitivo</fullName>
+                <default>false</default>
+                <label>Preço não competitivo</label>
+            </value>
+            <value>
+                <fullName>Condições de pagamento não atendem</fullName>
+                <default>false</default>
+                <label>Condições de pagamento não atendem</label>
+            </value>
+            <value>
+                <fullName>Prazo de entrega incompatível</fullName>
+                <default>false</default>
+                <label>Prazo de entrega incompatível</label>
+            </value>
+            <value>
+                <fullName>Produto não atende necessidade</fullName>
+                <default>false</default>
+                <label>Produto não atende necessidade</label>
+            </value>
+            <value>
+                <fullName>Cliente optou por concorrente</fullName>
+                <default>false</default>
+                <label>Cliente optou por concorrente</label>
+            </value>
+            <value>
+                <fullName>Cliente desistiu</fullName>
+                <default>false</default>
+                <label>Cliente desistiu</label>
+            </value>
+            <value>
+                <fullName>Sem orçamento</fullName>
+                <default>false</default>
+                <label>Sem orçamento</label>
+            </value>
+            <value>
+                <fullName>Outro</fullName>
+                <default>false</default>
+                <label>Outro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

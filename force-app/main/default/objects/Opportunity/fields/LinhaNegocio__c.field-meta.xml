@@ -3,7 +3,7 @@
     <fullName>LinhaNegocio__c</fullName>
     <description>Linha de negócio associada ao registro (controla visibilidade de campos)</description>
     <label>Linha de Negócio</label>
-    <required>true</required>
+    <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
@@ -16,14 +16,8 @@
                 <label>Acelerato</label>
             </value>
             <value>
-                <fullName>ERP</fullName>
-                <default>false</default>
-                <label>ERP</label>
-            </value>
-            <value>
                 <fullName>Bluesoft</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Bluesoft</label>
             </value>
         </valueSetDefinition>
