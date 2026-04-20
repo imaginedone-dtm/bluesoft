@@ -1,73 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Id_PipeDrive__c</members>
-        <members>Lead.LinhaNegocio__c</members>
-        <members>Opportunity.LinhaNegocio__c</members>
-        <members>Opportunity.Fase_Acelerato__c</members>
+        <members>Quote.Motivo_da_Recusa__c</members>
         <name>CustomField</name>
     </types>
 
     <types>
-        <members>Opportunity.Acelerato</members>
-        <members>Opportunity.ERP_Bluesoft</members>
-        <name>BusinessProcess</name>
-    </types>
-
-    <types>
-        <members>Lead_Atribuir_RT_Oportunidade_Conversao</members>
-        <name>Flow</name>
-    </types>
-
-    <types>
-        <members>Getting_Started_Home</members>
-        <members>Quote_Record_Page</members>
-        <members>OpportunityRecordPageERPBluesoft</members>
+        <members>ProdutodeOportunidadeFlexipage</members>
+        <members>LeadFlexipage</members>
+        <members>ContaFlexipage</members>
+        <members>CatalogodePrecosFelixpage</members>
+        <members>ProdutoFlexipage</members>
+        <members>CotacaoFlexipage</members>
+        <members>ItemdaCotacaoFlexipage</members>
         <name>FlexiPage</name>
     </types>
 
     <types>
-        <members>Opportunity-Opportunity Layout Acelerato</members>
-        <members>Opportunity-Opportunity Layout ERP Bluesoft</members>
+        <members>Quote-Quote Layout</members>
         <name>Layout</name>
     </types>
 
     <types>
-        <members>Opportunity.MinhasReunioes</members>
-        <name>ListView</name>
-    </types>
-
-    <types>
-        <members>Acelerato</members>
-        <members>Default</members>
-        <members>ERP_Bluesoft</members>
-        <name>PathAssistant</name>
-    </types>
-
-    <types>
-        <members>PS_Diretoria</members>
-        <members>PS_Executivo</members>
-        <members>PS_Gerencia</members>
-        <members>PS_SDR</members>
-        <members>PS_Suporte</members>
-        <name>PermissionSet</name>
-    </types>
-
-    <types>
-        <members>Bluesoft_SDR</members>
-        <name>ReportFolder</name>
-    </types>
-
-    <types>
-        <members>LeadStatus</members>
-        <members>OpportunityStage</members>
-        <members>QuoteStatus</members>
-        <name>StandardValueSet</name>
-    </types>
-
-    <types>
-        <members>Quote</members>
-        <name>CustomObject</name>
+        <members>Quote.Quote_Motivo_Recusa_Obrigatorio</members>
+        <name>ValidationRule</name>
     </types>
 
     <version>64.0</version>
