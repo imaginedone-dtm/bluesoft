@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity-Opportunity Layout Acelerato</members>
+        <members>Opportunity-Opportunity Layout ERP Bluesoft</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>OpportunityRecordPageERPBluesoft</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <version>64.0</version>
+</Package>
