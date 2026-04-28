@@ -2,6 +2,16 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
+        <fullName>Reunião Agendada</fullName>
+        <default>false</default>
+        <description>Reunião com executivo agendada pelo SDR. Etapa inicial da oportunidade após conversão do Lead.</description>
+        <label>Reunião Agendada</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>5</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
         <fullName>Apresentação</fullName>
         <default>false</default>
         <description>Primeiro contato comercial com o prospect.</description>

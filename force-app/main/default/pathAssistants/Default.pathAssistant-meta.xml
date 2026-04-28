@@ -4,5 +4,9 @@
     <entityName>Lead</entityName>
     <fieldName>Status</fieldName>
     <masterLabel>Default</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong&gt;⚠️ Antes de converter o Lead:&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Crie um &lt;strong&gt;Evento&lt;/strong&gt; vinculado a este Lead com a data e horário confirmados da reunião.&lt;/li&gt;&lt;li&gt;Aguarde a reunião acontecer.&lt;/li&gt;&lt;li&gt;Somente após a reunião realizada, clique em &lt;strong&gt;Converter&lt;/strong&gt; para criar a Oportunidade.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Se o prospect não comparecer, mantenha o Lead aberto e registre uma nova tentativa de contato.&lt;/p&gt;</info>
+        <picklistValueName>Reuniao_Agendada</picklistValueName>
+    </pathAssistantSteps>
     <recordTypeName>__MASTER__</recordTypeName>
 </PathAssistant>

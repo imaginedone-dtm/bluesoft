@@ -16,8 +16,24 @@
                 <label>Acelerato</label>
             </value>
             <value>
+                <fullName>Cosmos</fullName>
+                <default>false</default>
+                <label>Cosmos</label>
+            </value>
+            <value>
+                <fullName>ERP</fullName>
+                <default>false</default>
+                <label>ERP</label>
+            </value>
+            <value>
+                <fullName>Parceria</fullName>
+                <default>false</default>
+                <label>Parceria</label>
+            </value>
+            <value>
                 <fullName>Bluesoft</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Bluesoft</label>
             </value>
         </valueSetDefinition>

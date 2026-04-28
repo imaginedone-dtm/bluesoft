@@ -3,7 +3,7 @@
     <fullName>Focus_Area__c</fullName>
     <description>Foco principal do lead: indica a linha de produto/parceria de interesse. Usado para atribuicao automatica de leads.</description>
     <label>Foco Principal</label>
-    <required>true</required>
+    <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
