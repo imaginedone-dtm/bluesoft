@@ -44,20 +44,6 @@
                 <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>hideUpdateButton</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>variant</name>
-                    <value>linear</value>
-                </componentInstanceProperties>
-                <componentName>runtime_sales_lead:pathAssistant</componentName>
-                <identifier>runtime_sales_lead_pathAssistant</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
@@ -78,8 +64,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Title</fieldItem>
-                <identifier>RecordTitleField</identifier>
+                <fieldItem>Record.Cargo__c</fieldItem>
+                <identifier>RecordCargoField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -124,16 +110,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.MobilePhone</fieldItem>
                 <identifier>RecordMobilePhoneField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Tags__c</fieldItem>
-                <identifier>RecordTags_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-2ed3aa2a-6233-4d23-b8c7-77e49d8d4bcb</name>
@@ -194,6 +170,26 @@
                 <identifier>RecordWebsiteField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.TotalPDVs__c</fieldItem>
+                <identifier>RecordTotalPDVs__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.UnidadesLojas__c</fieldItem>
+                <identifier>RecordUnidadesLojas__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-8b748293-6cbc-4dfb-af50-ee862a84cbf8</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -234,18 +230,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.TotalPDVs__c</fieldItem>
-                <identifier>RecordTotalPDVs__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.UnidadesLojas__c</fieldItem>
-                <identifier>RecordUnidadesLojas__cField</identifier>
+                <fieldItem>Record.Tags__c</fieldItem>
+                <identifier>RecordTags_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-5ed82fbb-1d20-46cc-b61c-37cb68b02316</name>
@@ -292,16 +278,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.LeadSource</fieldItem>
-                <identifier>RecordLeadSourceField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.LinhaNegocio__c</fieldItem>
                 <identifier>RecordLinhaNegocio__cField</identifier>
             </fieldInstance>
@@ -316,18 +292,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Focus_Area__c</fieldItem>
-                <identifier>RecordFocus_Area__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Rating</fieldItem>
-                <identifier>RecordRatingField</identifier>
+                <fieldItem>Record.LeadSource</fieldItem>
+                <identifier>RecordLeadSourceField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -382,10 +348,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>Facet-b2c3d4e5-f6a7-4b8c-9d0e-f1a2b3c4d5e6</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -394,16 +356,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
                 <identifier>flexipage_column7</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-b2c3d4e5-f6a7-4b8c-9d0e-f1a2b3c4d5e6</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column8</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-f1a2b3c4-d5e6-4f78-9a0b-c1d2e3f4a5b6</name>
@@ -504,6 +456,20 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>hideUpdateButton</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>variant</name>
+                    <value>linear</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_lead:pathAssistant</componentName>
+                <identifier>runtime_sales_lead_pathAssistant</identifier>
+            </componentInstance>
+        </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>tagsBadge</componentName>

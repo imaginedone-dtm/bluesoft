@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Focus_Area__c</fullName>
-    <description>Foco principal do lead: indica a linha de produto/parceria de interesse. Usado para atribuicao automatica de leads.</description>
-    <label>Foco Principal</label>
+    <fullName>Funcionarios__c</fullName>
+    <label>Funcionários</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
@@ -11,36 +10,34 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Parceria</fullName>
+                <fullName>0-10</fullName>
                 <default>false</default>
-                <label>Parceria</label>
+                <label>0-10</label>
             </value>
             <value>
-                <fullName>Acelerato</fullName>
+                <fullName>11-50</fullName>
                 <default>false</default>
-                <label>Acelerato</label>
+                <label>11-50</label>
             </value>
             <value>
-                <fullName>ERP</fullName>
+                <fullName>51-200</fullName>
                 <default>false</default>
-                <label>ERP</label>
+                <label>51-200</label>
             </value>
             <value>
-                <fullName>Cosmos</fullName>
+                <fullName>201-500</fullName>
                 <default>false</default>
-                <label>Cosmos</label>
+                <label>201-500</label>
             </value>
             <value>
-                <fullName>Ambos</fullName>
+                <fullName>501-100</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
-                <label>Ambos</label>
+                <label>501-100</label>
             </value>
             <value>
-                <fullName>RP</fullName>
+                <fullName>1001-5000</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
-                <label>RP</label>
+                <label>1001-5000</label>
             </value>
         </valueSetDefinition>
     </valueSet>

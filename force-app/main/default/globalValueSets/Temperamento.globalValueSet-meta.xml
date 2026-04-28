@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Desconfiado</fullName>
+        <default>false</default>
+        <label>Desconfiado</label>
+    </customValue>
+    <customValue>
+        <fullName>Entusiasmado</fullName>
+        <default>false</default>
+        <label>Entusiasmado</label>
+    </customValue>
+    <customValue>
+        <fullName>Indiferente</fullName>
+        <default>false</default>
+        <label>Indiferente</label>
+    </customValue>
+    <customValue>
+        <fullName>Monossilábico</fullName>
+        <default>false</default>
+        <label>Monossilábico</label>
+    </customValue>
+    <customValue>
+        <fullName>Receptivo</fullName>
+        <default>false</default>
+        <label>Receptivo</label>
+    </customValue>
+    <customValue>
+        <fullName>Resistente</fullName>
+        <default>false</default>
+        <label>Resistente</label>
+    </customValue>
+    <masterLabel>Temperamento</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
