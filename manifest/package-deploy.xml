@@ -1,43 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.Funcionarios__c</members>
-        <members>Account.LinhaNegocio__c</members>
-        <members>Contact.Cargo__c</members>
-        <members>Contact.Instagram__c</members>
-        <members>Contact.LinkedIn__c</members>
-        <members>Contact.LinhaNegocio__c</members>
-        <members>Contact.Temperamento__c</members>
-        <members>Lead.Cargo__c</members>
-        <members>Lead.CNPJ__c</members>
-        <members>Lead.Focus_Area__c</members>
-        <members>Lead.LinhaNegocio__c</members>
-        <members>Quote.Motivo_da_Recusa__c</members>
+        <members>Account.AccountSource</members>
+        <members>Lead.AreaAtuacao__c</members>
+        <members>Lead.Evento__c</members>
+        <members>Lead.Inscrito_Bluetimes__c</members>
+        <members>Lead.ListaInscrito__c</members>
+        <members>Contact.AreaAtuacao__c</members>
+        <members>Contact.Evento__c</members>
+        <members>Contact.Inscrito_Bluetimes__c</members>
+        <members>Contact.ListaInscrito__c</members>
+        <members>Contact.LeadSource</members>
         <name>CustomField</name>
     </types>
 
     <types>
-        <members>ProdutodeOportunidadeFlexipage</members>
-        <members>LeadFlexipage</members>
         <members>ContaFlexipage</members>
         <members>ContatoFlexipage</members>
-        <members>OpportunityRecordPageAcelerato</members>
-        <members>OpportunityRecordPageERPBluesoft</members>
-        <members>CatalogodePrecosFelixpage</members>
-        <members>ProdutoFlexipage</members>
-        <members>CotacaoFlexipage</members>
-        <members>ItemdaCotacaoFlexipage</members>
         <name>FlexiPage</name>
-    </types>
-
-    <types>
-        <members>Oportunidade_NovaOportunidade</members>
-        <name>Flow</name>
-    </types>
-
-    <types>
-        <members>Cargo</members>
-        <name>LeadConvertSettings</name>
     </types>
 
     <types>
@@ -50,19 +30,8 @@
     </types>
 
     <types>
-        <members>Quote-Quote Layout</members>
-        <name>Layout</name>
-    </types>
-
-    <types>
-        <members>Temperamento</members>
-        <members>Tags</members>
-        <name>GlobalValueSet</name>
-    </types>
-
-    <types>
-        <members>Quote.Quote_Motivo_Recusa_Obrigatorio</members>
-        <name>ValidationRule</name>
+        <members>LeadStatus</members>
+        <name>StandardValueSet</name>
     </types>
 
     <version>64.0</version>

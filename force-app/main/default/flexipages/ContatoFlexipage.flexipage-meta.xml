@@ -69,16 +69,36 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>readonly</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.OwnerId</fieldItem>
-                <identifier>RecordOwnerIdField</identifier>
+                <fieldItem>Record.LinhaNegocio__c</fieldItem>
+                <identifier>RecordLinhaNegocio__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.AreaAtuacao__c</fieldItem>
+                <identifier>RecordAreaAtuacao_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bb200003-0001-4001-b001-c00000000001</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.OwnerId</fieldItem>
+                <identifier>RecordOwnerIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -107,16 +127,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.MobilePhone</fieldItem>
                 <identifier>RecordMobilePhoneField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.LinhaNegocio__c</fieldItem>
-                <identifier>RecordLinhaNegocio__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bb200003-0001-4001-b001-c00000000002</name>
@@ -191,8 +201,28 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.LinkedIn__c</fieldItem>
-                <identifier>RecordLinkedIn_cField</identifier>
+                <fieldItem>Record.Evento__c</fieldItem>
+                <identifier>RecordEvento_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.ListaInscrito__c</fieldItem>
+                <identifier>RecordListaInscrito_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Inscrito_Bluetimes__c</fieldItem>
+                <identifier>RecordInscrito_Bluetimes_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-b2d2f860-19db-4bf4-adba-29098569582b</name>
@@ -205,8 +235,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Temperamento__c</fieldItem>
-                <identifier>RecordTemperamento_cField</identifier>
+                <fieldItem>Record.Instagram__c</fieldItem>
+                <identifier>RecordInstagram_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -215,8 +245,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Instagram__c</fieldItem>
-                <identifier>RecordInstagram_cField</identifier>
+                <fieldItem>Record.LinkedIn__c</fieldItem>
+                <identifier>RecordLinkedIn_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-cb1ad413-48e7-4de5-a898-33ea63f9e3a1</name>
