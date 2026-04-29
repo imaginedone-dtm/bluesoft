@@ -127,6 +127,12 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.CloseDate</fieldItem>
                 <identifier>RecordCloseDateField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.CreatedBy.LastName}</leftValue>
+                        <operator>NE</operator>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-erp-col2-info</name>

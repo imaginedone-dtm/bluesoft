@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>LinhaNegocio__c</fullName>
-    <description>Linha de negócio associada ao registro (controla visibilidade de campos)</description>
-    <label>Linha de Negócio</label>
+    <fullName>Inscrito_Bluetimes__c</fullName>
+    <label>Inscrito Bluetimes</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
@@ -11,14 +10,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Acelerato</fullName>
+                <fullName>Sim</fullName>
                 <default>false</default>
-                <label>Acelerato</label>
+                <label>Sim</label>
             </value>
             <value>
-                <fullName>Bluesoft</fullName>
+                <fullName>Não</fullName>
                 <default>false</default>
-                <label>Bluesoft</label>
+                <label>Não</label>
             </value>
         </valueSetDefinition>
     </valueSet>

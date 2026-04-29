@@ -122,16 +122,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Focus_Area__c</fieldItem>
-                <identifier>RecordFocus_Area__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Tags__c</fieldItem>
                 <identifier>RecordTags_cField</identifier>
             </fieldInstance>
@@ -200,8 +190,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.NumberOfEmployees</fieldItem>
-                <identifier>RecordNumberOfEmployeesField</identifier>
+                <fieldItem>Record.Funcionarios__c</fieldItem>
+                <identifier>RecordFuncionarios_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bb200001-0002-4001-b001-c00000000001</name>
@@ -224,16 +214,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Rating</fieldItem>
-                <identifier>RecordRatingField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.AnnualRevenue</fieldItem>
                 <identifier>RecordAnnualRevenueField</identifier>
             </fieldInstance>
@@ -246,6 +226,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Regional__c</fieldItem>
                 <identifier>RecordRegional__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.AccountSource</fieldItem>
+                <identifier>RecordAccountSourceField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bb200001-0002-4001-b001-c00000000002</name>
@@ -290,10 +280,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>Facet-bb200001-0003-4001-b001-c00000000002</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -302,16 +288,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
                 <identifier>flexipage_column5</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-bb200001-0003-4001-b001-c00000000002</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column6</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-aa100001-0003-4001-b001-c00000000001</name>
@@ -364,8 +340,28 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.ModuloInteresse__c</fieldItem>
-                <identifier>RecordModuloInteresse__cField</identifier>
+                <fieldItem>Record.Relacionamento__c</fieldItem>
+                <identifier>RecordRelacionamento__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.FrenteCaixa__c</fieldItem>
+                <identifier>RecordFrenteCaixa__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.WMS__c</fieldItem>
+                <identifier>RecordWMS__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bb200001-0004-4001-b001-c00000000001</name>
@@ -422,6 +418,36 @@
                 <identifier>RecordQualificadoBluesoft__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.CentralCompras__c</fieldItem>
+                <identifier>RecordCentralCompras__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Ecommerce__c</fieldItem>
+                <identifier>RecordEcommerce__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Finder__c</fieldItem>
+                <identifier>RecordFinder__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-bb200001-0004-4001-b001-c00000000002</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -456,118 +482,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.FrenteCaixa__c</fieldItem>
-                <identifier>RecordFrenteCaixa__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Ecommerce__c</fieldItem>
-                <identifier>RecordEcommerce__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.WMS__c</fieldItem>
-                <identifier>RecordWMS__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Finder__c</fieldItem>
-                <identifier>RecordFinder__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Dores__c</fieldItem>
-                <identifier>RecordDores__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-bb200001-0005-4001-b001-c00000000001</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.CentralCompras__c</fieldItem>
-                <identifier>RecordCentralCompras__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Relacionamento__c</fieldItem>
-                <identifier>RecordRelacionamento__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.ChecklistExecucao__c</fieldItem>
-                <identifier>RecordChecklistExecucao__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-bb200001-0005-4001-b001-c00000000002</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-bb200001-0005-4001-b001-c00000000001</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column9</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-bb200001-0005-4001-b001-c00000000002</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column10</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-aa100001-0005-4001-b001-c00000000001</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.SistemaHelpDesk__c</fieldItem>
                 <identifier>RecordSistemaHelpDesk__cField</identifier>
             </fieldInstance>
@@ -592,7 +506,27 @@
                 <identifier>RecordSistemaProjetos__cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <name>Facet-bb200001-0006-4001-b001-c00000000001</name>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.ModuloInteresse__c</fieldItem>
+                <identifier>RecordModuloInteresse__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Dores__c</fieldItem>
+                <identifier>RecordDores__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-fdee6195-dd06-4773-8887-fe894a71a66d</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -622,11 +556,31 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.TamanhoAcelerato__c</fieldItem>
+                <identifier>RecordTamanhoAcelerato_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.QualificadoAcelerato__c</fieldItem>
                 <identifier>RecordQualificadoAcelerato__cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <name>Facet-bb200001-0006-4001-b001-c00000000002</name>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.ChecklistExecucao__c</fieldItem>
+                <identifier>RecordChecklistExecucao__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-23d8bc45-1135-4df3-bfff-b44a189c8f6d</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -634,23 +588,23 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-bb200001-0006-4001-b001-c00000000001</value>
+                    <value>Facet-fdee6195-dd06-4773-8887-fe894a71a66d</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column11</identifier>
+                <identifier>flexipage_column6</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-bb200001-0006-4001-b001-c00000000002</value>
+                    <value>Facet-23d8bc45-1135-4df3-bfff-b44a189c8f6d</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column12</identifier>
+                <identifier>flexipage_column9</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-aa100001-0006-4001-b001-c00000000001</name>
+        <name>Facet-2b4f162a-0a22-48e7-8727-ffe8858d61a5</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -668,10 +622,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>Facet-bb200001-0007-4001-b001-c00000000002</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
@@ -680,16 +630,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
                 <identifier>flexipage_column13</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-bb200001-0007-4001-b001-c00000000002</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column14</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-aa100001-0007-4001-b001-c00000000001</name>
@@ -711,20 +651,6 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.ShippingAddress</fieldItem>
-                <identifier>RecordShippingAddressField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-bb200001-0008-4001-b001-c00000000002</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
@@ -732,16 +658,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
                 <identifier>flexipage_column15</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-bb200001-0008-4001-b001-c00000000002</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column16</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-aa100001-0008-4001-b001-c00000000001</name>
@@ -866,15 +782,15 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>label</name>
-                    <value>💻 Bluesoft ERP</value>
+                    <value>💻 Tecnologia</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection4</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.LinhaNegocio__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Bluesoft</rightValue>
+                        <operator>NE</operator>
+                        <rightValue>Acelerato</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -883,7 +799,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>columns</name>
-                    <value>Facet-aa100001-0005-4001-b001-c00000000001</value>
+                    <value>Facet-2b4f162a-0a22-48e7-8727-ffe8858d61a5</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>horizontalAlignment</name>
@@ -891,40 +807,15 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>label</name>
-                    <value>🏪 Bluesoft - Soluções</value>
+                    <value>💻 Tecnologia</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection5</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.LinhaNegocio__c}</leftValue>
-                        <operator>EQUAL</operator>
+                        <operator>NE</operator>
                         <rightValue>Bluesoft</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>columns</name>
-                    <value>Facet-aa100001-0006-4001-b001-c00000000001</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>horizontalAlignment</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                    <value>🎧 Acelerato</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:fieldSection</componentName>
-                <identifier>flexipage_fieldSection6</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.LinhaNegocio__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Acelerato</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

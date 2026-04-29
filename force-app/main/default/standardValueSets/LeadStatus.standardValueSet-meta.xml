@@ -8,33 +8,21 @@
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Em_Qualificacao</fullName>
+        <fullName>Nutricao</fullName>
         <default>false</default>
-        <label>Em Qualificacao</label>
+        <label>Nutrição</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Contactado</fullName>
+        <fullName>Qualificacao</fullName>
         <default>false</default>
-        <label>Contactado</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>Reuniao_Agendada</fullName>
-        <default>false</default>
-        <label>Reuniao Agendada</label>
-        <converted>false</converted>
-    </standardValue>
-    <standardValue>
-        <fullName>Convertido</fullName>
-        <default>false</default>
-        <label>Convertido</label>
+        <label>Qualificação</label>
         <converted>true</converted>
     </standardValue>
     <standardValue>
-        <fullName>Desqualificado</fullName>
+        <fullName>Nao_Qualificado</fullName>
         <default>false</default>
-        <label>Desqualificado</label>
+        <label>Não Qualificado</label>
         <converted>false</converted>
     </standardValue>
 </StandardValueSet>
