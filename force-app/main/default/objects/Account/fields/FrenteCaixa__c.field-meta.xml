@@ -120,6 +120,11 @@
                 <label>LBC Sistemas</label>
             </value>
             <value>
+                <fullName>Linear Sistemas</fullName>
+                <default>false</default>
+                <label>Linear Sistemas</label>
+            </value>
+            <value>
                 <fullName>Linx</fullName>
                 <default>false</default>
                 <label>Linx</label>
@@ -150,14 +155,14 @@
                 <label>Mobne (Consinco)</label>
             </value>
             <value>
-                <fullName>NextSoft</fullName>
-                <default>false</default>
-                <label>NextSoft</label>
-            </value>
-            <value>
                 <fullName>Não utiliza PDV</fullName>
                 <default>false</default>
                 <label>Não utiliza PDV</label>
+            </value>
+            <value>
+                <fullName>NextSoft</fullName>
+                <default>false</default>
+                <label>NextSoft</label>
             </value>
             <value>
                 <fullName>Odoo</fullName>
@@ -208,6 +213,11 @@
                 <fullName>RW Informática</fullName>
                 <default>false</default>
                 <label>RW Informática</label>
+            </value>
+            <value>
+                <fullName>Saurus</fullName>
+                <default>false</default>
+                <label>Saurus</label>
             </value>
             <value>
                 <fullName>SD Informática</fullName>

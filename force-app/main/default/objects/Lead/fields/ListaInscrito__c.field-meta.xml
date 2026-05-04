@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ListaInscrito__c</fullName>
+    <label>Lista em que está inscrito</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E-Book Prevenção de Perdas em Supermercados 2018</fullName>
+                <default>false</default>
+                <label>E-Book Prevenção de Perdas em Supermercados 2018</label>
+            </value>
+            <value>
+                <fullName>Tendências Tecnológicas 2020</fullName>
+                <default>false</default>
+                <label>Tendências Tecnológicas 2020</label>
+            </value>
+            <value>
+                <fullName>Infográfico - Calendário do Varejo - 2021</fullName>
+                <default>false</default>
+                <label>Infográfico - Calendário do Varejo - 2021</label>
+            </value>
+            <value>
+                <fullName>Info - Benefícios B.I. E-Commerce - 2020</fullName>
+                <default>false</default>
+                <label>Info - Benefícios B.I. E-Commerce - 2020</label>
+            </value>
+            <value>
+                <fullName>Info - Checklist de Prevenção de Perdas - 2020</fullName>
+                <default>false</default>
+                <label>Info - Checklist de Prevenção de Perdas - 2020</label>
+            </value>
+            <value>
+                <fullName>Info - KPIs Essenciais Compras - 2020</fullName>
+                <default>false</default>
+                <label>Info - KPIs Essenciais Compras - 2020</label>
+            </value>
+            <value>
+                <fullName>Infográfico - Calendário do Varejo - 2020</fullName>
+                <default>false</default>
+                <label>Infográfico - Calendário do Varejo - 2020</label>
+            </value>
+            <value>
+                <fullName>Infográfico - 10 Dicas para preparar-se para as Sazonalidades</fullName>
+                <default>false</default>
+                <label>Infográfico - 10 Dicas para preparar-se para as Sazonalidades</label>
+            </value>
+            <value>
+                <fullName>Info - 11 Erros Comuns Gestão Financeira - 2019</fullName>
+                <default>false</default>
+                <label>Info - 11 Erros Comuns Gestão Financeira - 2019</label>
+            </value>
+            <value>
+                <fullName>E-Book Tendências Tecnológicas 2021</fullName>
+                <default>false</default>
+                <label>E-Book Tendências Tecnológicas 2021</label>
+            </value>
+            <value>
+                <fullName>E-Book - PIX nos Supermercados</fullName>
+                <default>false</default>
+                <label>E-Book - PIX nos Supermercados</label>
+            </value>
+            <value>
+                <fullName>E-Book - Prevenção de Perdas nos Supermercados - 2020</fullName>
+                <default>false</default>
+                <label>E-Book - Prevenção de Perdas nos Supermercados - 2020</label>
+            </value>
+            <value>
+                <fullName>E-Book - LGPD - Fique em Conformidade com a Lei</fullName>
+                <default>false</default>
+                <label>E-Book - LGPD - Fique em Conformidade com a Lei</label>
+            </value>
+            <value>
+                <fullName>E-Book - CoMKT - Bluesoft e iMendes</fullName>
+                <default>false</default>
+                <label>E-Book - CoMKT - Bluesoft e iMendes</label>
+            </value>
+            <value>
+                <fullName>E-Book - CoMKT - Bluesoft e Acelerato</fullName>
+                <default>false</default>
+                <label>E-Book - CoMKT - Bluesoft e Acelerato</label>
+            </value>
+            <value>
+                <fullName>E-Book - ERP na Nuvem e o Home Office nos Supermercados</fullName>
+                <default>false</default>
+                <label>E-Book - ERP na Nuvem e o Home Office nos Supermercados</label>
+            </value>
+            <value>
+                <fullName>Boas práticas no combate ao COVID para Supermercados</fullName>
+                <default>false</default>
+                <label>Boas práticas no combate ao COVID para Supermercados</label>
+            </value>
+            <value>
+                <fullName>Prevenção de Perdas nos Supermercados - 2019</fullName>
+                <default>false</default>
+                <label>Prevenção de Perdas nos Supermercados - 2019</label>
+            </value>
+            <value>
+                <fullName>E-commerce para Supermercadistas</fullName>
+                <default>false</default>
+                <label>E-commerce para Supermercadistas</label>
+            </value>
+            <value>
+                <fullName>ERP para Supermercados - 2019</fullName>
+                <default>false</default>
+                <label>ERP para Supermercados - 2019</label>
+            </value>
+            <value>
+                <fullName>E-Book - NRF 2019 para Supermercadistas</fullName>
+                <default>false</default>
+                <label>E-Book - NRF 2019 para Supermercadistas</label>
+            </value>
+            <value>
+                <fullName>E-Book - Tendencias Tecnologicas 2019</fullName>
+                <default>false</default>
+                <label>E-Book - Tendencias Tecnologicas 2019</label>
+            </value>
+            <value>
+                <fullName>E-Book - Tendências Tecnológicas para o Varejo em 2018</fullName>
+                <default>false</default>
+                <label>E-Book - Tendências Tecnológicas para o Varejo em 2018</label>
+            </value>
+            <value>
+                <fullName>E-Book - Tendencias Tecnologicas 2017</fullName>
+                <default>false</default>
+                <label>E-Book - Tendencias Tecnologicas 2017</label>
+            </value>
+            <value>
+                <fullName>E-Book - Atendimento ao cliente no Varejo - 2017</fullName>
+                <default>false</default>
+                <label>E-Book - Atendimento ao cliente no Varejo - 2017</label>
+            </value>
+            <value>
+                <fullName>[BS] Contatos do Site Bluesoft</fullName>
+                <default>false</default>
+                <label>[BS] Contatos do Site Bluesoft</label>
+            </value>
+            <value>
+                <fullName>Ebook Guia de Planejamento Tributário</fullName>
+                <default>false</default>
+                <label>Ebook Guia de Planejamento Tributário</label>
+            </value>
+            <value>
+                <fullName>Ebook ICMS Substituição Tributária (ICMS ST) e CEST</fullName>
+                <default>false</default>
+                <label>Ebook ICMS Substituição Tributária (ICMS ST) e CEST</label>
+            </value>
+            <value>
+                <fullName>Ebook - Direito Tributário</fullName>
+                <default>false</default>
+                <label>Ebook - Direito Tributário</label>
+            </value>
+            <value>
+                <fullName>EBook 12 práticas para uma Boa Gestão de Varejo</fullName>
+                <default>false</default>
+                <label>EBook 12 práticas para uma Boa Gestão de Varejo</label>
+            </value>
+            <value>
+                <fullName>EBook - E-Commerce em 2021</fullName>
+                <default>false</default>
+                <label>EBook - E-Commerce em 2021</label>
+            </value>
+            <value>
+                <fullName>Ebook - Guia de Acordos Comerciais em Supermercados</fullName>
+                <default>false</default>
+                <label>Ebook - Guia de Acordos Comerciais em Supermercados</label>
+            </value>
+            <value>
+                <fullName>Ebook Guia de Gestão Financeira no Varejo</fullName>
+                <default>false</default>
+                <label>Ebook Guia de Gestão Financeira no Varejo</label>
+            </value>
+            <value>
+                <fullName>[BS] Recursos - Receber Novidades</fullName>
+                <default>false</default>
+                <label>[BS] Recursos - Receber Novidades</label>
+            </value>
+            <value>
+                <fullName>Ebook - Precificação Inteligente no Varejo</fullName>
+                <default>false</default>
+                <label>Ebook - Precificação Inteligente no Varejo</label>
+            </value>
+            <value>
+                <fullName>E-Book WiFi para Supermercados</fullName>
+                <default>false</default>
+                <label>E-Book WiFi para Supermercados</label>
+            </value>
+            <value>
+                <fullName>Ebook Como otimizar o espaço físico do Supermercado</fullName>
+                <default>false</default>
+                <label>Ebook Como otimizar o espaço físico do Supermercado</label>
+            </value>
+            <value>
+                <fullName>E-book - Ruptura no Varejo</fullName>
+                <default>false</default>
+                <label>E-book - Ruptura no Varejo</label>
+            </value>
+            <value>
+                <fullName>E-book - Sua empresa está preparada para a NF-e 4.0?</fullName>
+                <default>false</default>
+                <label>E-book - Sua empresa está preparada para a NF-e 4.0?</label>
+            </value>
+            <value>
+                <fullName>E-Book - Tipos de Varejo Alimentar</fullName>
+                <default>false</default>
+                <label>E-Book - Tipos de Varejo Alimentar</label>
+            </value>
+            <value>
+                <fullName>E-book - Vantagens do ERP SaaS na Nuvem</fullName>
+                <default>false</default>
+                <label>E-book - Vantagens do ERP SaaS na Nuvem</label>
+            </value>
+            <value>
+                <fullName>E-Book - Layout, Design e Merchandising</fullName>
+                <default>false</default>
+                <label>E-Book - Layout, Design e Merchandising</label>
+            </value>
+            <value>
+                <fullName>E-Book - Raio X do Setor de Compras</fullName>
+                <default>false</default>
+                <label>E-Book - Raio X do Setor de Compras</label>
+            </value>
+            <value>
+                <fullName>E-book - Gerenciamento por Categoria para Supermercados</fullName>
+                <default>false</default>
+                <label>E-book - Gerenciamento por Categoria para Supermercados</label>
+            </value>
+            <value>
+                <fullName>E-book - KPI supermercadista Parte Dois</fullName>
+                <default>false</default>
+                <label>E-book - KPI supermercadista Parte Dois</label>
+            </value>
+            <value>
+                <fullName>E-book - Prevenção de Perdas em Supermercados 2018</fullName>
+                <default>false</default>
+                <label>E-book - Prevenção de Perdas em Supermercados 2018</label>
+            </value>
+            <value>
+                <fullName>[AC] EBook - 10 erros que você não pode cometer na gestão de projetos</fullName>
+                <default>false</default>
+                <label>[AC] EBook - 10 erros que você não pode cometer na gestão de projetos</label>
+            </value>
+            <value>
+                <fullName>E-book - Como o Varejista consegue utilizar os dados para aumentar seus resultados</fullName>
+                <default>false</default>
+                <label>E-book - Como o Varejista consegue utilizar os dados para aumentar seus resultados</label>
+            </value>
+            <value>
+                <fullName>E-book - Prevenção de Perdas 2021 - Linkedin</fullName>
+                <default>false</default>
+                <label>E-book - Prevenção de Perdas 2021 - Linkedin</label>
+            </value>
+            <value>
+                <fullName>E-book - Gigantes do Varejo [BS]</fullName>
+                <default>false</default>
+                <label>E-book - Gigantes do Varejo [BS]</label>
+            </value>
+            <value>
+                <fullName>E-book - KPI supermercadista Parte Um</fullName>
+                <default>false</default>
+                <label>E-book - KPI supermercadista Parte Um</label>
+            </value>
+            <value>
+                <fullName>[BS] Blog - Receber Novidades</fullName>
+                <default>false</default>
+                <label>[BS] Blog - Receber Novidades</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 15 Dicas para Líderes de Atendimento</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 15 Dicas para Líderes de Atendimento</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Guia de boas práticas de Help Desk</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Guia de boas práticas de Help Desk</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 10 Melhores Práticas para Product Owners</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 10 Melhores Práticas para Product Owners</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Atendimento Multicanal</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Atendimento Multicanal</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Ebook Atendimento ao Cliente na Era Digital</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Ebook Atendimento ao Cliente na Era Digital</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Retenção de Clientes com Atendimento</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Retenção de Clientes com Atendimento</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 15 Dicas para Liderança de Equipe de Atendimento</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 15 Dicas para Liderança de Equipe de Atendimento</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Como garantir a entrega do seu SLA</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Como garantir a entrega do seu SLA</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Como Inovar na Experiência do Cliente</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Como Inovar na Experiência do Cliente</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Como utilizar a Metodologia Ágil no Atendimento ao Cliente</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Como utilizar a Metodologia Ágil no Atendimento ao Cliente</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 10 Funcionalidades indispensáveis para Gestores de Equipe Home Office</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 10 Funcionalidades indispensáveis para Gestores de Equipe Home Office</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Home Office: veja como oferecer esse benefício para seu colaborador</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Home Office: veja como oferecer esse benefício para seu colaborador</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 20 Dicas para Liderança de Equipe de Atendimento</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 20 Dicas para Liderança de Equipe de Atendimento</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 15 Dicas para Preparar o seu Atendimento em Datas Comemorativas</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 15 Dicas para Preparar o seu Atendimento em Datas Comemorativas</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 10 Benefícios da Gestão de Projetos para ter sucesso em 2021</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 10 Benefícios da Gestão de Projetos para ter sucesso em 2021</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Benefícios da Jornada do Cliente para o seu atendimento</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Benefícios da Jornada do Cliente para o seu atendimento</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Guia sobre Team Building: tudo o que você precisa saber sobre o assunto!</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Guia sobre Team Building: tudo o que você precisa saber sobre o assunto!</label>
+            </value>
+            <value>
+                <fullName>[AC] Infográfico - 9 Tipos de Canais de Atendimento</fullName>
+                <default>false</default>
+                <label>[AC] Infográfico - 9 Tipos de Canais de Atendimento</label>
+            </value>
+            <value>
+                <fullName>[AC] Infográfico - 9 Dicas para Alcançar a excelência no Atendimento ao Cliente</fullName>
+                <default>false</default>
+                <label>[AC] Infográfico - 9 Dicas para Alcançar a excelência no Atendimento ao Cliente</label>
+            </value>
+            <value>
+                <fullName>[AC] Infográfico - 9 Motivos para Oferecer um Atendimento Personalizado para seu cliente!</fullName>
+                <default>false</default>
+                <label>[AC] Infográfico - 9 Motivos para Oferecer um Atendimento Personalizado para seu cliente!</label>
+            </value>
+            <value>
+                <fullName>[AC] Infográfico - 10 benefícios o uso do SaaS no Suporte</fullName>
+                <default>false</default>
+                <label>[AC] Infográfico - 10 benefícios o uso do SaaS no Suporte</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - 15 Dicas de Produtividade para seu Help Desk Remoto</fullName>
+                <default>false</default>
+                <label>[AC] E-book - 15 Dicas de Produtividade para seu Help Desk Remoto</label>
+            </value>
+            <value>
+                <fullName>[AC] Ação Growth - Dicas de Liderança</fullName>
+                <default>false</default>
+                <label>[AC] Ação Growth - Dicas de Liderança</label>
+            </value>
+            <value>
+                <fullName>[AC] Infográfico - O Caminho da Medalha de Ouro do Atendimento ao Cliente</fullName>
+                <default>false</default>
+                <label>[AC] Infográfico - O Caminho da Medalha de Ouro do Atendimento ao Cliente</label>
+            </value>
+            <value>
+                <fullName>E-book - A Importância do ESG para o Varejo</fullName>
+                <default>false</default>
+                <label>E-book - A Importância do ESG para o Varejo</label>
+            </value>
+            <value>
+                <fullName>E-book - CoMKT - Acelerato e Bluesoft - 2021</fullName>
+                <default>false</default>
+                <label>E-book - CoMKT - Acelerato e Bluesoft - 2021</label>
+            </value>
+            <value>
+                <fullName>E-book - A importância do Trade Marketing Digital para o E-Commerce Varejista</fullName>
+                <default>false</default>
+                <label>E-book - A importância do Trade Marketing Digital para o E-Commerce Varejista</label>
+            </value>
+            <value>
+                <fullName>E-book - Como Gerenciar Equipes à Distância- Ação The News</fullName>
+                <default>false</default>
+                <label>E-book - Como Gerenciar Equipes à Distância- Ação The News</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Atendimento Omnichannel</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Atendimento Omnichannel</label>
+            </value>
+            <value>
+                <fullName>[AC] Planilha Gestão de Tarefas</fullName>
+                <default>false</default>
+                <label>[AC] Planilha Gestão de Tarefas</label>
+            </value>
+            <value>
+                <fullName>E-book - Prevenção de Perdas 2022</fullName>
+                <default>false</default>
+                <label>E-book - Prevenção de Perdas 2022</label>
+            </value>
+            <value>
+                <fullName>Colaboradores Bluesoft</fullName>
+                <default>false</default>
+                <label>Colaboradores Bluesoft</label>
+            </value>
+            <value>
+                <fullName>[BS] Carta do Diretor - Novidades do Sistema</fullName>
+                <default>false</default>
+                <label>[BS] Carta do Diretor - Novidades do Sistema</label>
+            </value>
+            <value>
+                <fullName>[AC] Clientes Acelerato</fullName>
+                <default>false</default>
+                <label>[AC] Clientes Acelerato</label>
+            </value>
+            <value>
+                <fullName>[BS] Calendário do Varejo 2022</fullName>
+                <default>false</default>
+                <label>[BS] Calendário do Varejo 2022</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book 15 passos para ser um Líder Incrivel - 2022</fullName>
+                <default>false</default>
+                <label>[AC] E-book 15 passos para ser um Líder Incrivel - 2022</label>
+            </value>
+            <value>
+                <fullName>[BlueTimes] Newsletter BlueTimes</fullName>
+                <default>false</default>
+                <label>[BlueTimes] Newsletter BlueTimes</label>
+            </value>
+            <value>
+                <fullName>E-book - Tendências Tecnológicas para o Varejo 2022</fullName>
+                <default>false</default>
+                <label>E-book - Tendências Tecnológicas para o Varejo 2022</label>
+            </value>
+            <value>
+                <fullName>[AC] [Info] Como Criar Persona 2022</fullName>
+                <default>false</default>
+                <label>[AC] [Info] Como Criar Persona 2022</label>
+            </value>
+            <value>
+                <fullName>[AC] Infográfico - Script de Atendimento</fullName>
+                <default>false</default>
+                <label>[AC] Infográfico - Script de Atendimento</label>
+            </value>
+            <value>
+                <fullName>Lista-APAS 2023</fullName>
+                <default>false</default>
+                <label>Lista-APAS 2023</label>
+            </value>
+            <value>
+                <fullName>E-book - Vantagens do ERP SaaS na Nuvem 2022</fullName>
+                <default>false</default>
+                <label>E-book - Vantagens do ERP SaaS na Nuvem 2022</label>
+            </value>
+            <value>
+                <fullName>[AC] [BS] E-book - Atendimento ao Cliente no Varejo</fullName>
+                <default>false</default>
+                <label>[AC] [BS] E-book - Atendimento ao Cliente no Varejo</label>
+            </value>
+            <value>
+                <fullName>E-book - E-Commerce em 2022: Dicas para preparar sua Operação</fullName>
+                <default>false</default>
+                <label>E-book - E-Commerce em 2022: Dicas para preparar sua Operação</label>
+            </value>
+            <value>
+                <fullName>[AC] A Copa do Mundo é Nossa 2022</fullName>
+                <default>false</default>
+                <label>[AC] A Copa do Mundo é Nossa 2022</label>
+            </value>
+            <value>
+                <fullName>Kit Blue - O Marketing para o Varejista!</fullName>
+                <default>false</default>
+                <label>Kit Blue - O Marketing para o Varejista!</label>
+            </value>
+            <value>
+                <fullName>Infográfico - Calendário do Varejo 2023</fullName>
+                <default>false</default>
+                <label>Infográfico - Calendário do Varejo 2023</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - Product Owner Guia das Melhores Praticas 2023</fullName>
+                <default>false</default>
+                <label>[AC] E-book - Product Owner Guia das Melhores Praticas 2023</label>
+            </value>
+            <value>
+                <fullName>[BS] NRF 2023 | [e-book]</fullName>
+                <default>false</default>
+                <label>[BS] NRF 2023 | [e-book]</label>
+            </value>
+            <value>
+                <fullName>[BS] Clientes escolhidos EDI -Neogrid</fullName>
+                <default>false</default>
+                <label>[BS] Clientes escolhidos EDI -Neogrid</label>
+            </value>
+            <value>
+                <fullName>[BS] Baixou e-book EDI -Neogrid</fullName>
+                <default>false</default>
+                <label>[BS] Baixou e-book EDI -Neogrid</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - O guia definitivo para o Foco no Cliente</fullName>
+                <default>false</default>
+                <label>[AC] E-book - O guia definitivo para o Foco no Cliente</label>
+            </value>
+            <value>
+                <fullName>Infográfico - Tipos de Quebra Operacional</fullName>
+                <default>false</default>
+                <label>Infográfico - Tipos de Quebra Operacional</label>
+            </value>
+            <value>
+                <fullName>Nutrição Neogrid Maio/23</fullName>
+                <default>false</default>
+                <label>Nutrição Neogrid Maio/23</label>
+            </value>
+            <value>
+                <fullName>[AC] Ação Acelerato - PipeDrive 07/23</fullName>
+                <default>false</default>
+                <label>[AC] Ação Acelerato - PipeDrive 07/23</label>
+            </value>
+            <value>
+                <fullName>[AC] E-book - A copa do Mundo é Nossa!</fullName>
+                <default>false</default>
+                <label>[AC] E-book - A copa do Mundo é Nossa!</label>
+            </value>
+            <value>
+                <fullName>E-book - Gigantes do Varejo 2023 [BS]</fullName>
+                <default>false</default>
+                <label>E-book - Gigantes do Varejo 2023 [BS]</label>
+            </value>
+            <value>
+                <fullName>Acelerato solução definitiva para a sua gestão (CBR)</fullName>
+                <default>false</default>
+                <label>Acelerato solução definitiva para a sua gestão (CBR)</label>
+            </value>
+            <value>
+                <fullName>E-book - KPIs Estratégicos para o Sucesso no Varejo</fullName>
+                <default>false</default>
+                <label>E-book - KPIs Estratégicos para o Sucesso no Varejo</label>
+            </value>
+            <value>
+                <fullName>E-book - Domine a Black Friday: 10 Estratégias para Turbinar seu E-commerce</fullName>
+                <default>false</default>
+                <label>E-book - Domine a Black Friday: 10 Estratégias para Turbinar seu E-commerce</label>
+            </value>
+            <value>
+                <fullName>Descubra o Poder da Eficiência (CBR)</fullName>
+                <default>false</default>
+                <label>Descubra o Poder da Eficiência (CBR)</label>
+            </value>
+            <value>
+                <fullName>E-book - Calendário do Varejo 2024</fullName>
+                <default>false</default>
+                <label>E-book - Calendário do Varejo 2024</label>
+            </value>
+            <value>
+                <fullName>Guia Orientativo Innovation Lab e StartUp Hub - NRF 2024</fullName>
+                <default>false</default>
+                <label>Guia Orientativo Innovation Lab e StartUp Hub - NRF 2024</label>
+            </value>
+            <value>
+                <fullName>Acelerato (CBR)</fullName>
+                <default>false</default>
+                <label>Acelerato (CBR)</label>
+            </value>
+            <value>
+                <fullName>E-book - Tendências Tecnológicas 2024</fullName>
+                <default>false</default>
+                <label>E-book - Tendências Tecnológicas 2024</label>
+            </value>
+            <value>
+                <fullName>[BS] Lista-Supermercadistas-SC-24</fullName>
+                <default>false</default>
+                <label>[BS] Lista-Supermercadistas-SC-24</label>
+            </value>
+            <value>
+                <fullName>[BS] Lista-Supermercadistas-PB-24</fullName>
+                <default>false</default>
+                <label>[BS] Lista-Supermercadistas-PB-24</label>
+            </value>
+            <value>
+                <fullName>Apras 2024 [comercial]</fullName>
+                <default>false</default>
+                <label>Apras 2024 [comercial]</label>
+            </value>
+            <value>
+                <fullName>Vtex Day 2024</fullName>
+                <default>false</default>
+                <label>Vtex Day 2024</label>
+            </value>
+            <value>
+                <fullName>[AC] Nutrição Checklist</fullName>
+                <default>false</default>
+                <label>[AC] Nutrição Checklist</label>
+            </value>
+            <value>
+                <fullName>E-book desvendando o consumidor 2024</fullName>
+                <default>false</default>
+                <label>E-book desvendando o consumidor 2024</label>
+            </value>
+            <value>
+                <fullName>E-book - Calendário do varejo 2025</fullName>
+                <default>false</default>
+                <label>E-book - Calendário do varejo 2025</label>
+            </value>
+            <value>
+                <fullName>PósNRF-ABRAS25</fullName>
+                <default>false</default>
+                <label>PósNRF-ABRAS25</label>
+            </value>
+            <value>
+                <fullName>AC TEST LIST</fullName>
+                <default>false</default>
+                <label>AC TEST LIST</label>
+            </value>
+            <value>
+                <fullName>Flyer 2025</fullName>
+                <default>false</default>
+                <label>Flyer 2025</label>
+            </value>
+            <value>
+                <fullName>Master SMS List</fullName>
+                <default>false</default>
+                <label>Master SMS List</label>
+            </value>
+            <value>
+                <fullName>E-book - Tendências Tecnológicas 2025</fullName>
+                <default>false</default>
+                <label>E-book - Tendências Tecnológicas 2025</label>
+            </value>
+            <value>
+                <fullName>[BS] E-book - Prevenção de Perdas 2025</fullName>
+                <default>false</default>
+                <label>[BS] E-book - Prevenção de Perdas 2025</label>
+            </value>
+            <value>
+                <fullName>[BS] Calendário do Varejo - 2026</fullName>
+                <default>false</default>
+                <label>[BS] Calendário do Varejo - 2026</label>
+            </value>
+            <value>
+                <fullName>[BS] Guia NRF 2026</fullName>
+                <default>false</default>
+                <label>[BS] Guia NRF 2026</label>
+            </value>
+            <value>
+                <fullName>[BS] Eventos - Pós NRF26 ABRAS</fullName>
+                <default>false</default>
+                <label>[BS] Eventos - Pós NRF26 ABRAS</label>
+            </value>
+            <value>
+                <fullName>[BS] Eventos - Jantar NRF26 ABRAS</fullName>
+                <default>false</default>
+                <label>[BS] Eventos - Jantar NRF26 ABRAS</label>
+            </value>
+            <value>
+                <fullName>[BS] Ebook Reforma c SLT</fullName>
+                <default>false</default>
+                <label>[BS] Ebook Reforma c SLT</label>
+            </value>
+            <value>
+                <fullName>NRF 2026</fullName>
+                <default>false</default>
+                <label>NRF 2026</label>
+            </value>
+            <value>
+                <fullName>Pós NRF Abras - 2026</fullName>
+                <default>false</default>
+                <label>Pós NRF Abras - 2026</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação - ACAPS - 2026</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação - ACAPS - 2026</label>
+            </value>
+            <value>
+                <fullName>Fórum SA+ 2026</fullName>
+                <default>false</default>
+                <label>Fórum SA+ 2026</label>
+            </value>
+            <value>
+                <fullName>Imersão Eficienc.ia 2026</fullName>
+                <default>false</default>
+                <label>Imersão Eficienc.ia 2026</label>
+            </value>
+            <value>
+                <fullName>Smart Market - 2026</fullName>
+                <default>false</default>
+                <label>Smart Market - 2026</label>
+            </value>
+            <value>
+                <fullName>APAS Show 2026</fullName>
+                <default>false</default>
+                <label>APAS Show 2026</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação APRAS - 2026</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação APRAS - 2026</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação - AMIS - 2026</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação - AMIS - 2026</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação - ASSURN - 2026</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação - ASSURN - 2026</label>
+            </value>
+            <value>
+                <fullName>Convenção ABRAS - 2026</fullName>
+                <default>false</default>
+                <label>Convenção ABRAS - 2026</label>
+            </value>
+            <value>
+                <fullName>Super Minas - 2026</fullName>
+                <default>false</default>
+                <label>Super Minas - 2026</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação - AGAS - 2026</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação - AGAS - 2026</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação - ACESU - 2026</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação - ACESU - 2026</label>
+            </value>
+            <value>
+                <fullName>Jantar Dia dos Supermercados - 2026</fullName>
+                <default>false</default>
+                <label>Jantar Dia dos Supermercados - 2026</label>
+            </value>
+            <value>
+                <fullName>Neogrid Summit - 2026</fullName>
+                <default>false</default>
+                <label>Neogrid Summit - 2026</label>
+            </value>
+            <value>
+                <fullName>Lista 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lista 1</label>
+            </value>
+            <value>
+                <fullName>Lista 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lista 2</label>
+            </value>
+            <value>
+                <fullName>Lista 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lista 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

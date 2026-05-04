@@ -10,6 +10,121 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>BeHappy</fullName>
+                <default>false</default>
+                <label>BeHappy</label>
+            </value>
+            <value>
+                <fullName>Big2be</fullName>
+                <default>false</default>
+                <label>Big2be</label>
+            </value>
+            <value>
+                <fullName>Bis2Bis</fullName>
+                <default>false</default>
+                <label>Bis2Bis</label>
+            </value>
+            <value>
+                <fullName>BizCommerce</fullName>
+                <default>false</default>
+                <label>BizCommerce</label>
+            </value>
+            <value>
+                <fullName>Bluesoft</fullName>
+                <default>false</default>
+                <label>Bluesoft</label>
+            </value>
+            <value>
+                <fullName>Convertize</fullName>
+                <default>false</default>
+                <label>Convertize</label>
+            </value>
+            <value>
+                <fullName>Ecshop</fullName>
+                <default>false</default>
+                <label>Ecshop</label>
+            </value>
+            <value>
+                <fullName>ERP RadInfo</fullName>
+                <default>false</default>
+                <label>ERP RadInfo</label>
+            </value>
+            <value>
+                <fullName>F1 Commerce</fullName>
+                <default>false</default>
+                <label>F1 Commerce</label>
+            </value>
+            <value>
+                <fullName>Instabuy</fullName>
+                <default>false</default>
+                <label>Instabuy</label>
+            </value>
+            <value>
+                <fullName>JN2</fullName>
+                <default>false</default>
+                <label>JN2</label>
+            </value>
+            <value>
+                <fullName>Life</fullName>
+                <default>false</default>
+                <label>Life</label>
+            </value>
+            <value>
+                <fullName>Linx</fullName>
+                <default>false</default>
+                <label>Linx</label>
+            </value>
+            <value>
+                <fullName>Loja Integrada</fullName>
+                <default>false</default>
+                <label>Loja Integrada</label>
+            </value>
+            <value>
+                <fullName>Loji</fullName>
+                <default>false</default>
+                <label>Loji</label>
+            </value>
+            <value>
+                <fullName>Magento</fullName>
+                <default>false</default>
+                <label>Magento</label>
+            </value>
+            <value>
+                <fullName>MaxiPós</fullName>
+                <default>false</default>
+                <label>MaxiPós</label>
+            </value>
+            <value>
+                <fullName>Mercadapp</fullName>
+                <default>false</default>
+                <label>Mercadapp</label>
+            </value>
+            <value>
+                <fullName>Mercafacil</fullName>
+                <default>false</default>
+                <label>Mercafacil</label>
+            </value>
+            <value>
+                <fullName>Não possui</fullName>
+                <default>false</default>
+                <label>Não possui</label>
+            </value>
+            <value>
+                <fullName>Nuvemshop</fullName>
+                <default>false</default>
+                <label>Nuvemshop</label>
+            </value>
+            <value>
+                <fullName>Olist</fullName>
+                <default>false</default>
+                <label>Olist</label>
+            </value>
+            <value>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+                <label>Oracle</label>
+            </value>
+            <value>
                 <fullName>OSuper</fullName>
                 <default>false</default>
                 <label>OSuper</label>
@@ -20,29 +135,9 @@
                 <label>Outros</label>
             </value>
             <value>
-                <fullName>Não possui</fullName>
+                <fullName>PDVnet</fullName>
                 <default>false</default>
-                <label>Não possui</label>
-            </value>
-            <value>
-                <fullName>Site Mercado</fullName>
-                <default>false</default>
-                <label>Site Mercado</label>
-            </value>
-            <value>
-                <fullName>Stoom</fullName>
-                <default>false</default>
-                <label>Stoom</label>
-            </value>
-            <value>
-                <fullName>Standalone</fullName>
-                <default>false</default>
-                <label>Standalone</label>
-            </value>
-            <value>
-                <fullName>Próprio</fullName>
-                <default>false</default>
-                <label>Próprio</label>
+                <label>PDVnet</label>
             </value>
             <value>
                 <fullName>Presence</fullName>
@@ -50,9 +145,19 @@
                 <label>Presence</label>
             </value>
             <value>
-                <fullName>PDVnet</fullName>
+                <fullName>Próprio</fullName>
                 <default>false</default>
-                <label>PDVnet</label>
+                <label>Próprio</label>
+            </value>
+            <value>
+                <fullName>Regex Solutions</fullName>
+                <default>false</default>
+                <label>Regex Solutions</label>
+            </value>
+            <value>
+                <fullName>Saurus</fullName>
+                <default>false</default>
+                <label>Saurus</label>
             </value>
             <value>
                 <fullName>Shoppub</fullName>
@@ -63,6 +168,21 @@
                 <fullName>Sicompra</fullName>
                 <default>false</default>
                 <label>Sicompra</label>
+            </value>
+            <value>
+                <fullName>Site Mercado</fullName>
+                <default>false</default>
+                <label>Site Mercado</label>
+            </value>
+            <value>
+                <fullName>Standalone</fullName>
+                <default>false</default>
+                <label>Standalone</label>
+            </value>
+            <value>
+                <fullName>Stoom</fullName>
+                <default>false</default>
+                <label>Stoom</label>
             </value>
             <value>
                 <fullName>TrayCommerce</fullName>
@@ -93,16 +213,6 @@
                 <fullName>Worksoft</fullName>
                 <default>false</default>
                 <label>Worksoft</label>
-            </value>
-            <value>
-                <fullName>Regex Solutions</fullName>
-                <default>false</default>
-                <label>Regex Solutions</label>
-            </value>
-            <value>
-                <fullName>Saurus</fullName>
-                <default>false</default>
-                <label>Saurus</label>
             </value>
         </valueSetDefinition>
     </valueSet>

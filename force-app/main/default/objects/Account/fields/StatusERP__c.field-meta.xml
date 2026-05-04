@@ -10,6 +10,11 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Apresentado, sem interesse no momento</fullName>
+                <default>false</default>
+                <label>Apresentado, sem interesse no momento</label>
+            </value>
+            <value>
                 <fullName>Apresentado sem interesse no momento</fullName>
                 <default>false</default>
                 <label>Apresentado sem interesse no momento</label>
@@ -20,9 +25,9 @@
                 <label>Apresentamos no passado - Retomar contato</label>
             </value>
             <value>
-                <fullName>Desqualificado - ERP não aderente</fullName>
+                <fullName>Churn - Já foi cliente e cancelou</fullName>
                 <default>false</default>
-                <label>Desqualificado - ERP não aderente</label>
+                <label>Churn - Já foi cliente e cancelou</label>
             </value>
             <value>
                 <fullName>Cliente ativo - Bluesoft ERP</fullName>
@@ -33,6 +38,21 @@
                 <fullName>Cliente churn - Cancelado</fullName>
                 <default>false</default>
                 <label>Cliente churn - Cancelado</label>
+            </value>
+            <value>
+                <fullName>Desqualificado - ERP não aderente</fullName>
+                <default>false</default>
+                <label>Desqualificado - ERP não aderente</label>
+            </value>
+            <value>
+                <fullName>ERP não é aderente ao cliente</fullName>
+                <default>false</default>
+                <label>ERP não é aderente ao cliente</label>
+            </value>
+            <value>
+                <fullName>Já é cliente Bluesoft ERP</fullName>
+                <default>false</default>
+                <label>Já é cliente Bluesoft ERP</label>
             </value>
             <value>
                 <fullName>Lead com proposta comercial</fullName>

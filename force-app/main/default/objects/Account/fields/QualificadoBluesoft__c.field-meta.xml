@@ -10,14 +10,29 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Sim</fullName>
+                <fullName>Aderência Futura</fullName>
                 <default>false</default>
-                <label>Sim</label>
+                <label>Aderência Futura</label>
+            </value>
+            <value>
+                <fullName>Dúvida</fullName>
+                <default>false</default>
+                <label>Dúvida</label>
+            </value>
+            <value>
+                <fullName>Inoperante</fullName>
+                <default>false</default>
+                <label>Inoperante</label>
             </value>
             <value>
                 <fullName>Não</fullName>
                 <default>false</default>
                 <label>Não</label>
+            </value>
+            <value>
+                <fullName>Sim</fullName>
+                <default>false</default>
+                <label>Sim</label>
             </value>
         </valueSetDefinition>
     </valueSet>
