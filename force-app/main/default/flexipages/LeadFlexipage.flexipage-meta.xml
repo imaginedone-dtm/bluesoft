@@ -72,16 +72,26 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>readonly</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.OwnerId</fieldItem>
-                <identifier>RecordOwnerIdField</identifier>
+                <fieldItem>Record.AreaAtuacao__c</fieldItem>
+                <identifier>RecordAreaAtuacao_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-e7b9ed07-bfa7-44b2-9cf6-726aeb5a8473</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>readonly</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.OwnerId</fieldItem>
+                <identifier>RecordOwnerIdField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -180,16 +190,6 @@
                 <identifier>RecordTotalPDVs__cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.UnidadesLojas__c</fieldItem>
-                <identifier>RecordUnidadesLojas__cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-8b748293-6cbc-4dfb-af50-ee862a84cbf8</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -210,8 +210,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.NumberOfEmployees</fieldItem>
-                <identifier>RecordNumberOfEmployeesField</identifier>
+                <fieldItem>Record.Funcionarios__c</fieldItem>
+                <identifier>RecordFuncionarios_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -230,8 +230,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Tags__c</fieldItem>
-                <identifier>RecordTags_cField</identifier>
+                <fieldItem>Record.UnidadesLojas__c</fieldItem>
+                <identifier>RecordUnidadesLojas__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-5ed82fbb-1d20-46cc-b61c-37cb68b02316</name>
@@ -282,6 +282,16 @@
                 <identifier>RecordLinhaNegocio__cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.ListaInscrito__c</fieldItem>
+                <identifier>RecordListaInscrito_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-117ceba3-9370-45f9-bb5f-d2e6aa1d41c3</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -294,6 +304,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.LeadSource</fieldItem>
                 <identifier>RecordLeadSourceField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Inscrito_Bluetimes__c</fieldItem>
+                <identifier>RecordInscrito_Bluetimes_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

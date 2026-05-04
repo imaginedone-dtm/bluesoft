@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Lead.Cargo__c</members>
-        <members>Lead.Evento__c</members>
-        <members>Lead.Inscrito_Bluetimes__c</members>
-        <members>Lead.ListaInscrito__c</members>
-        <members>Account.RamoAtividade__c</members>
-        <members>Account.StatusERP__c</members>
-        <members>Account.ERP__c</members>
-        <members>Account.ERPAnterior__c</members>
-        <members>Account.QualificadoBluesoft__c</members>
-        <members>Account.FrenteCaixa__c</members>
-        <members>Account.Ecommerce__c</members>
-        <members>Account.WMS__c</members>
-        <members>Account.CRM__c</members>
-        <members>Contact.Evento__c</members>
+        <members>Lead.Funcionarios__c</members>
+        <members>Account.Tags__c</members>
+        <members>Contact.Tags__c</members>
         <name>CustomField</name>
+    </types>
+
+    <types>
+        <members>PS_Diretoria</members>
+        <members>PS_Executivo</members>
+        <members>PS_Gerencia</members>
+        <members>PS_SDR</members>
+        <members>PS_Suporte</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <types>
+        <members>Tags</members>
+        <name>GlobalValueSet</name>
+    </types>
+
+    <types>
+        <members>tagsBadge</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+    <types>
+        <members>LeadFlexipage</members>
+        <members>ContaFlexipage</members>
+        <members>ContatoFlexipage</members>
+        <name>FlexiPage</name>
     </types>
 
     <version>64.0</version>
