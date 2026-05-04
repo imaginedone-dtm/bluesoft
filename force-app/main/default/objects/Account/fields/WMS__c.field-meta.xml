@@ -10,6 +10,11 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Alcis</fullName>
+                <default>false</default>
+                <label>Alcis</label>
+            </value>
+            <value>
                 <fullName>Bluesoft</fullName>
                 <default>false</default>
                 <label>Bluesoft</label>
@@ -55,14 +60,14 @@
                 <label>TOTVS Consinco</label>
             </value>
             <value>
+                <fullName>TOTVS RMS</fullName>
+                <default>false</default>
+                <label>TOTVS RMS</label>
+            </value>
+            <value>
                 <fullName>TOTVS Winthor</fullName>
                 <default>false</default>
                 <label>TOTVS Winthor</label>
-            </value>
-            <value>
-                <fullName>Alcis</fullName>
-                <default>false</default>
-                <label>Alcis</label>
             </value>
         </valueSetDefinition>
     </valueSet>

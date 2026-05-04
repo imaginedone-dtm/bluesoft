@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Evento__c</fullName>
     <description>Evento onde o lead foi captado</description>
-    <label>Evento</label>
+    <label>Evento que participou</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>MultiselectPicklist</type>
@@ -11,14 +11,79 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>NRF 2026</fullName>
+                <fullName>12º Fórum Nacional 2024</fullName>
                 <default>false</default>
-                <label>NRF 2026</label>
+                <label>12º Fórum Nacional 2024</label>
             </value>
             <value>
-                <fullName>Pós NRF ABRAS</fullName>
+                <fullName>ABRAS&apos;26</fullName>
                 <default>false</default>
-                <label>Pós NRF ABRAS</label>
+                <label>ABRAS&apos;26</label>
+            </value>
+            <value>
+                <fullName>ABRAS 2022</fullName>
+                <default>false</default>
+                <label>ABRAS 2022</label>
+            </value>
+            <value>
+                <fullName>ABRAS 2024</fullName>
+                <default>false</default>
+                <label>ABRAS 2024</label>
+            </value>
+            <value>
+                <fullName>ABRAS ACAPS 2025</fullName>
+                <default>false</default>
+                <label>ABRAS ACAPS 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS ACESU 2025</fullName>
+                <default>false</default>
+                <label>ABRAS ACESU 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS AGAS 2025</fullName>
+                <default>false</default>
+                <label>ABRAS AGAS 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS AMAS 2025</fullName>
+                <default>false</default>
+                <label>ABRAS AMAS 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS AMASE 2025</fullName>
+                <default>false</default>
+                <label>ABRAS AMASE 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS AMIS 2025</fullName>
+                <default>false</default>
+                <label>ABRAS AMIS 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS APES 2025</fullName>
+                <default>false</default>
+                <label>ABRAS APES 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS APRAS 2025</fullName>
+                <default>false</default>
+                <label>ABRAS APRAS 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS ASPB 2025</fullName>
+                <default>false</default>
+                <label>ABRAS ASPB 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS ASSURN 2025</fullName>
+                <default>false</default>
+                <label>ABRAS ASSURN 2025</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação</label>
             </value>
             <value>
                 <fullName>ABRAS em Ação (ACAPS)</fullName>
@@ -26,24 +91,9 @@
                 <label>ABRAS em Ação (ACAPS)</label>
             </value>
             <value>
-                <fullName>Fórum SA+</fullName>
+                <fullName>ABRAS em Ação (ACESU)</fullName>
                 <default>false</default>
-                <label>Fórum SA+</label>
-            </value>
-            <value>
-                <fullName>Smart Market</fullName>
-                <default>false</default>
-                <label>Smart Market</label>
-            </value>
-            <value>
-                <fullName>APAS Show</fullName>
-                <default>false</default>
-                <label>APAS Show</label>
-            </value>
-            <value>
-                <fullName>ABRAS em Ação AGAS</fullName>
-                <default>false</default>
-                <label>ABRAS em Ação AGAS</label>
+                <label>ABRAS em Ação (ACESU)</label>
             </value>
             <value>
                 <fullName>ABRAS em Ação (AMIS)</fullName>
@@ -56,24 +106,9 @@
                 <label>ABRAS em Ação (ASSURN)</label>
             </value>
             <value>
-                <fullName>ACAPS</fullName>
+                <fullName>ABRAS em Ação AGAS</fullName>
                 <default>false</default>
-                <label>ACAPS</label>
-            </value>
-            <value>
-                <fullName>ABRAS&apos;26</fullName>
-                <default>false</default>
-                <label>ABRAS&apos;26</label>
-            </value>
-            <value>
-                <fullName>Super Minas</fullName>
-                <default>false</default>
-                <label>Super Minas</label>
-            </value>
-            <value>
-                <fullName>ABRAS em Ação (ACESU)</fullName>
-                <default>false</default>
-                <label>ABRAS em Ação (ACESU)</label>
+                <label>ABRAS em Ação AGAS</label>
             </value>
             <value>
                 <fullName>ABRAS em Ação APRAS</fullName>
@@ -81,19 +116,299 @@
                 <label>ABRAS em Ação APRAS</label>
             </value>
             <value>
+                <fullName>Abras em Ação Estaduais Ceará 2024</fullName>
+                <default>false</default>
+                <label>Abras em Ação Estaduais Ceará 2024</label>
+            </value>
+            <value>
+                <fullName>Abras em Ação Mato Grosso do Sul 2024</fullName>
+                <default>false</default>
+                <label>Abras em Ação Mato Grosso do Sul 2024</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação Paraíba 2024</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação Paraíba 2024</label>
+            </value>
+            <value>
+                <fullName>Abras em Ação Paraná 2024</fullName>
+                <default>false</default>
+                <label>Abras em Ação Paraná 2024</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação Pernambuco 2024</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação Pernambuco 2024</label>
+            </value>
+            <value>
+                <fullName>ABRAS em Ação Santa Catarina 2024</fullName>
+                <default>false</default>
+                <label>ABRAS em Ação Santa Catarina 2024</label>
+            </value>
+            <value>
+                <fullName>ABRAS’26 (Cota Diamante)</fullName>
+                <default>false</default>
+                <label>ABRAS’26 (Cota Diamante)</label>
+            </value>
+            <value>
+                <fullName>ACAPS</fullName>
+                <default>false</default>
+                <label>ACAPS</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Bauru 2023</fullName>
+                <default>false</default>
+                <label>APAS Experience Bauru 2023</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Campinas 2023</fullName>
+                <default>false</default>
+                <label>APAS Experience Campinas 2023</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Campinas 2024</fullName>
+                <default>false</default>
+                <label>APAS Experience Campinas 2024</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Guarulhos 2024</fullName>
+                <default>false</default>
+                <label>APAS Experience Guarulhos 2024</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Ribeirão 2024</fullName>
+                <default>false</default>
+                <label>APAS Experience Ribeirão 2024</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Sorocaba 2024</fullName>
+                <default>false</default>
+                <label>APAS Experience Sorocaba 2024</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Vale do Paraíba 2023</fullName>
+                <default>false</default>
+                <label>APAS Experience Vale do Paraíba 2023</label>
+            </value>
+            <value>
+                <fullName>APAS Experience Vale do Paraíba 2024</fullName>
+                <default>false</default>
+                <label>APAS Experience Vale do Paraíba 2024</label>
+            </value>
+            <value>
+                <fullName>APAS Next 2022</fullName>
+                <default>false</default>
+                <label>APAS Next 2022</label>
+            </value>
+            <value>
+                <fullName>APAS Show</fullName>
+                <default>false</default>
+                <label>APAS Show</label>
+            </value>
+            <value>
+                <fullName>APAS Show 2022</fullName>
+                <default>false</default>
+                <label>APAS Show 2022</label>
+            </value>
+            <value>
+                <fullName>APAS Show 2023</fullName>
+                <default>false</default>
+                <label>APAS Show 2023</label>
+            </value>
+            <value>
+                <fullName>APAS Show 2024</fullName>
+                <default>false</default>
+                <label>APAS Show 2024</label>
+            </value>
+            <value>
+                <fullName>APAS SHOW 2025</fullName>
+                <default>false</default>
+                <label>APAS SHOW 2025</label>
+            </value>
+            <value>
+                <fullName>Black Belt 2024</fullName>
+                <default>false</default>
+                <label>Black Belt 2024</label>
+            </value>
+            <value>
+                <fullName>Boi no Rolete 2022</fullName>
+                <default>false</default>
+                <label>Boi no Rolete 2022</label>
+            </value>
+            <value>
+                <fullName>Convenção ABRAS 2025</fullName>
+                <default>false</default>
+                <label>Convenção ABRAS 2025</label>
+            </value>
+            <value>
+                <fullName>Encontro de Gestores 2025</fullName>
+                <default>false</default>
+                <label>Encontro de Gestores 2025</label>
+            </value>
+            <value>
+                <fullName>Evento Avanço em MG</fullName>
+                <default>false</default>
+                <label>Evento Avanço em MG</label>
+            </value>
+            <value>
+                <fullName>ExpoApras 2023</fullName>
+                <default>false</default>
+                <label>ExpoApras 2023</label>
+            </value>
+            <value>
+                <fullName>ExpoApras 2024</fullName>
+                <default>false</default>
+                <label>ExpoApras 2024</label>
+            </value>
+            <value>
+                <fullName>EXPOAPRAS 2025</fullName>
+                <default>false</default>
+                <label>EXPOAPRAS 2025</label>
+            </value>
+            <value>
+                <fullName>Expo Super SC 2025</fullName>
+                <default>false</default>
+                <label>Expo Super SC 2025</label>
+            </value>
+            <value>
+                <fullName>Fórum SA+</fullName>
+                <default>false</default>
+                <label>Fórum SA+</label>
+            </value>
+            <value>
+                <fullName>GS1 2022</fullName>
+                <default>false</default>
+                <label>GS1 2022</label>
+            </value>
+            <value>
+                <fullName>GS1 Brasil 2023</fullName>
+                <default>false</default>
+                <label>GS1 Brasil 2023</label>
+            </value>
+            <value>
+                <fullName>Jantar ABRAS 2024</fullName>
+                <default>false</default>
+                <label>Jantar ABRAS 2024</label>
+            </value>
+            <value>
                 <fullName>Jantar Dia dos Supermercados</fullName>
                 <default>false</default>
                 <label>Jantar Dia dos Supermercados</label>
             </value>
             <value>
-                <fullName>ABRAS em Ação</fullName>
+                <fullName>Jantar Dia dos Supermercados (Cota Platina)</fullName>
                 <default>false</default>
-                <label>ABRAS em Ação</label>
+                <label>Jantar Dia dos Supermercados (Cota Platina)</label>
+            </value>
+            <value>
+                <fullName>Neogrid RJ 2024 (Lista)</fullName>
+                <default>false</default>
+                <label>Neogrid RJ 2024 (Lista)</label>
+            </value>
+            <value>
+                <fullName>Neogrid RS 2024 (Lista)</fullName>
+                <default>false</default>
+                <label>Neogrid RS 2024 (Lista)</label>
+            </value>
+            <value>
+                <fullName>Neogrid SC 2024 (Lista)</fullName>
+                <default>false</default>
+                <label>Neogrid SC 2024 (Lista)</label>
             </value>
             <value>
                 <fullName>Neogrid Summit</fullName>
                 <default>false</default>
                 <label>Neogrid Summit</label>
+            </value>
+            <value>
+                <fullName>Neogrid Summit 2024</fullName>
+                <default>false</default>
+                <label>Neogrid Summit 2024</label>
+            </value>
+            <value>
+                <fullName>NRF 2024</fullName>
+                <default>false</default>
+                <label>NRF 2024</label>
+            </value>
+            <value>
+                <fullName>NRF 2025</fullName>
+                <default>false</default>
+                <label>NRF 2025</label>
+            </value>
+            <value>
+                <fullName>NRF 2026</fullName>
+                <default>false</default>
+                <label>NRF 2026</label>
+            </value>
+            <value>
+                <fullName>NRF 2026 (Cota Diamante)</fullName>
+                <default>false</default>
+                <label>NRF 2026 (Cota Diamante)</label>
+            </value>
+            <value>
+                <fullName>NSG 2025</fullName>
+                <default>false</default>
+                <label>NSG 2025</label>
+            </value>
+            <value>
+                <fullName>NSG by APAS 2023</fullName>
+                <default>false</default>
+                <label>NSG by APAS 2023</label>
+            </value>
+            <value>
+                <fullName>Pós NRF 2025 (ABRAS)</fullName>
+                <default>false</default>
+                <label>Pós NRF 2025 (ABRAS)</label>
+            </value>
+            <value>
+                <fullName>Pós NRF ABRAS</fullName>
+                <default>false</default>
+                <label>Pós NRF ABRAS</label>
+            </value>
+            <value>
+                <fullName>Smart Market</fullName>
+                <default>false</default>
+                <label>Smart Market</label>
+            </value>
+            <value>
+                <fullName>SMART MARKET 2025</fullName>
+                <default>false</default>
+                <label>SMART MARKET 2025</label>
+            </value>
+            <value>
+                <fullName>SuperBahia 2024</fullName>
+                <default>false</default>
+                <label>SuperBahia 2024</label>
+            </value>
+            <value>
+                <fullName>Super Minas</fullName>
+                <default>false</default>
+                <label>Super Minas</label>
+            </value>
+            <value>
+                <fullName>SuperMinas (Avanço) 2025</fullName>
+                <default>false</default>
+                <label>SuperMinas (Avanço) 2025</label>
+            </value>
+            <value>
+                <fullName>SuperMinas 2024 (Avanço)</fullName>
+                <default>false</default>
+                <label>SuperMinas 2024 (Avanço)</label>
+            </value>
+            <value>
+                <fullName>Super Minas Food Show 2023</fullName>
+                <default>false</default>
+                <label>Super Minas Food Show 2023</label>
+            </value>
+            <value>
+                <fullName>Super Rio Expofood 2024</fullName>
+                <default>false</default>
+                <label>Super Rio Expofood 2024</label>
+            </value>
+            <value>
+                <fullName>Vtex Day 2024</fullName>
+                <default>false</default>
+                <label>Vtex Day 2024</label>
             </value>
         </valueSetDefinition>
     </valueSet>

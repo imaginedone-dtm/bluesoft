@@ -10,6 +10,31 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Alterdata</fullName>
+                <default>false</default>
+                <label>Alterdata</label>
+            </value>
+            <value>
+                <fullName>Arius</fullName>
+                <default>false</default>
+                <label>Arius</label>
+            </value>
+            <value>
+                <fullName>Artsystem</fullName>
+                <default>false</default>
+                <label>Artsystem</label>
+            </value>
+            <value>
+                <fullName>Auge</fullName>
+                <default>false</default>
+                <label>Auge</label>
+            </value>
+            <value>
+                <fullName>Avanço</fullName>
+                <default>false</default>
+                <label>Avanço</label>
+            </value>
+            <value>
                 <fullName>Bluesoft</fullName>
                 <default>false</default>
                 <label>Bluesoft</label>
@@ -30,6 +55,11 @@
                 <label>Controller</label>
             </value>
             <value>
+                <fullName>ControlWare</fullName>
+                <default>false</default>
+                <label>ControlWare</label>
+            </value>
+            <value>
                 <fullName>GCF Sistemas</fullName>
                 <default>false</default>
                 <label>GCF Sistemas</label>
@@ -48,6 +78,11 @@
                 <fullName>Hipcom</fullName>
                 <default>false</default>
                 <label>Hipcom</label>
+            </value>
+            <value>
+                <fullName>HR Tech</fullName>
+                <default>false</default>
+                <label>HR Tech</label>
             </value>
             <value>
                 <fullName>Intersolid</fullName>
@@ -103,6 +138,11 @@
                 <fullName>Próprio</fullName>
                 <default>false</default>
                 <label>Próprio</label>
+            </value>
+            <value>
+                <fullName>Proton Sistemas</fullName>
+                <default>false</default>
+                <label>Proton Sistemas</label>
             </value>
             <value>
                 <fullName>Rotac</fullName>
@@ -173,11 +213,6 @@
                 <fullName>VR Software</fullName>
                 <default>false</default>
                 <label>VR Software</label>
-            </value>
-            <value>
-                <fullName>Proton Sistemas</fullName>
-                <default>false</default>
-                <label>Proton Sistemas</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -10,6 +10,11 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>CresceVendas</fullName>
+                <default>false</default>
+                <label>CresceVendas</label>
+            </value>
+            <value>
                 <fullName>Cresce Vendas</fullName>
                 <default>false</default>
                 <label>Cresce Vendas</label>
@@ -40,6 +45,11 @@
                 <label>Regex Solutions</label>
             </value>
             <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
                 <fullName>Vórtice</fullName>
                 <default>false</default>
                 <label>Vórtice</label>
@@ -48,11 +58,6 @@
                 <fullName>Zoombox</fullName>
                 <default>false</default>
                 <label>Zoombox</label>
-            </value>
-            <value>
-                <fullName>Salesforce</fullName>
-                <default>false</default>
-                <label>Salesforce</label>
             </value>
         </valueSetDefinition>
     </valueSet>

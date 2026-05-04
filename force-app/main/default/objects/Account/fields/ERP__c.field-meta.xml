@@ -26,14 +26,14 @@
                 <label>ADA ERP</label>
             </value>
             <value>
-                <fullName>Alpha PDV</fullName>
-                <default>false</default>
-                <label>Alpha PDV</label>
-            </value>
-            <value>
                 <fullName>Alpha7</fullName>
                 <default>false</default>
                 <label>Alpha7</label>
+            </value>
+            <value>
+                <fullName>Alpha PDV</fullName>
+                <default>false</default>
+                <label>Alpha PDV</label>
             </value>
             <value>
                 <fullName>Altec Sistema</fullName>
@@ -64,6 +64,11 @@
                 <fullName>Aramo Sistemas</fullName>
                 <default>false</default>
                 <label>Aramo Sistemas</label>
+            </value>
+            <value>
+                <fullName>Area Central</fullName>
+                <default>false</default>
+                <label>Area Central</label>
             </value>
             <value>
                 <fullName>Área Central</fullName>
@@ -246,11 +251,6 @@
                 <label>Dynamics 365</label>
             </value>
             <value>
-                <fullName>E-Gestora</fullName>
-                <default>false</default>
-                <label>E-Gestora</label>
-            </value>
-            <value>
                 <fullName>Eccosys</fullName>
                 <default>false</default>
                 <label>Eccosys</label>
@@ -266,6 +266,11 @@
                 <label>eGestor</label>
             </value>
             <value>
+                <fullName>E-Gestora</fullName>
+                <default>false</default>
+                <label>E-Gestora</label>
+            </value>
+            <value>
                 <fullName>Ema Software</fullName>
                 <default>false</default>
                 <label>Ema Software</label>
@@ -274,11 +279,6 @@
                 <fullName>Eptus Corporation</fullName>
                 <default>false</default>
                 <label>Eptus Corporation</label>
-            </value>
-            <value>
-                <fullName>ER Sistemas</fullName>
-                <default>false</default>
-                <label>ER Sistemas</label>
             </value>
             <value>
                 <fullName>Eris Sistemas</fullName>
@@ -301,6 +301,11 @@
                 <label>ERPServ</label>
             </value>
             <value>
+                <fullName>ER Sistemas</fullName>
+                <default>false</default>
+                <label>ER Sistemas</label>
+            </value>
+            <value>
                 <fullName>Everest Food Service</fullName>
                 <default>false</default>
                 <label>Everest Food Service</label>
@@ -309,6 +314,11 @@
                 <fullName>Exodus</fullName>
                 <default>false</default>
                 <label>Exodus</label>
+            </value>
+            <value>
+                <fullName>Fábrica de Software</fullName>
+                <default>false</default>
+                <label>Fábrica de Software</label>
             </value>
             <value>
                 <fullName>Fenix</fullName>
@@ -331,6 +341,11 @@
                 <label>Flexmobile</label>
             </value>
             <value>
+                <fullName>Focus</fullName>
+                <default>false</default>
+                <label>Focus</label>
+            </value>
+            <value>
                 <fullName>FortePlus</fullName>
                 <default>false</default>
                 <label>FortePlus</label>
@@ -339,11 +354,6 @@
                 <fullName>Futura</fullName>
                 <default>false</default>
                 <label>Futura</label>
-            </value>
-            <value>
-                <fullName>Fábrica de Software</fullName>
-                <default>false</default>
-                <label>Fábrica de Software</label>
             </value>
             <value>
                 <fullName>GCF Sistemas</fullName>
@@ -541,14 +551,14 @@
                 <label>Miari Tecnologia</label>
             </value>
             <value>
-                <fullName>Micro Universo</fullName>
-                <default>false</default>
-                <label>Micro Universo</label>
-            </value>
-            <value>
                 <fullName>Microsoft Dynamics</fullName>
                 <default>false</default>
                 <label>Microsoft Dynamics</label>
+            </value>
+            <value>
+                <fullName>Micro Universo</fullName>
+                <default>false</default>
+                <label>Micro Universo</label>
             </value>
             <value>
                 <fullName>MICROVIX</fullName>
@@ -581,6 +591,11 @@
                 <label>NBS</label>
             </value>
             <value>
+                <fullName>Nérus</fullName>
+                <default>false</default>
+                <label>Nérus</label>
+            </value>
+            <value>
                 <fullName>NexSoft</fullName>
                 <default>false</default>
                 <label>NexSoft</label>
@@ -594,11 +609,6 @@
                 <fullName>NM Sistemas</fullName>
                 <default>false</default>
                 <label>NM Sistemas</label>
-            </value>
-            <value>
-                <fullName>Nérus</fullName>
-                <default>false</default>
-                <label>Nérus</label>
             </value>
             <value>
                 <fullName>Odoo</fullName>
@@ -696,11 +706,6 @@
                 <label>Procfit</label>
             </value>
             <value>
-                <fullName>Provenco</fullName>
-                <default>false</default>
-                <label>Provenco</label>
-            </value>
-            <value>
                 <fullName>Próprio</fullName>
                 <default>false</default>
                 <label>Próprio</label>
@@ -709,6 +714,11 @@
                 <fullName>Próton Sistemas</fullName>
                 <default>false</default>
                 <label>Próton Sistemas</label>
+            </value>
+            <value>
+                <fullName>Provenco</fullName>
+                <default>false</default>
+                <label>Provenco</label>
             </value>
             <value>
                 <fullName>RAP Sistemas</fullName>
@@ -796,14 +806,19 @@
                 <label>Senior</label>
             </value>
             <value>
+                <fullName>SGCL</fullName>
+                <default>false</default>
+                <label>SGCL</label>
+            </value>
+            <value>
                 <fullName>SG Sistemas</fullName>
                 <default>false</default>
                 <label>SG Sistemas</label>
             </value>
             <value>
-                <fullName>SGCL</fullName>
+                <fullName>Shopseg</fullName>
                 <default>false</default>
-                <label>SGCL</label>
+                <label>Shopseg</label>
             </value>
             <value>
                 <fullName>Siagri ERP</fullName>
@@ -846,11 +861,6 @@
                 <label>Sistema Auditor</label>
             </value>
             <value>
-                <fullName>Soft System</fullName>
-                <default>false</default>
-                <label>Soft System</label>
-            </value>
-            <value>
                 <fullName>Softcom</fullName>
                 <default>false</default>
                 <label>Softcom</label>
@@ -864,6 +874,11 @@
                 <fullName>Softmais</fullName>
                 <default>false</default>
                 <label>Softmais</label>
+            </value>
+            <value>
+                <fullName>Soft System</fullName>
+                <default>false</default>
+                <label>Soft System</label>
             </value>
             <value>
                 <fullName>Softtool</fullName>
@@ -891,14 +906,19 @@
                 <label>Star Sistemas</label>
             </value>
             <value>
+                <fullName>Starsoft</fullName>
+                <default>false</default>
+                <label>Starsoft</label>
+            </value>
+            <value>
                 <fullName>Star Two Sistemas</fullName>
                 <default>false</default>
                 <label>Star Two Sistemas</label>
             </value>
             <value>
-                <fullName>Starsoft</fullName>
+                <fullName>Superus</fullName>
                 <default>false</default>
-                <label>Starsoft</label>
+                <label>Superus</label>
             </value>
             <value>
                 <fullName>SysEmp</fullName>
@@ -916,11 +936,6 @@
                 <label>Target</label>
             </value>
             <value>
-                <fullName>Telecon Sistemas</fullName>
-                <default>false</default>
-                <label>Telecon Sistemas</label>
-            </value>
-            <value>
                 <fullName>TECNICON</fullName>
                 <default>false</default>
                 <label>TECNICON</label>
@@ -929,6 +944,11 @@
                 <fullName>Teknisa</fullName>
                 <default>false</default>
                 <label>Teknisa</label>
+            </value>
+            <value>
+                <fullName>Telecon Sistemas</fullName>
+                <default>false</default>
+                <label>Telecon Sistemas</label>
             </value>
             <value>
                 <fullName>Tiny</fullName>
@@ -1016,6 +1036,11 @@
                 <label>Up Software</label>
             </value>
             <value>
+                <fullName>Varejo Facil</fullName>
+                <default>false</default>
+                <label>Varejo Facil</label>
+            </value>
+            <value>
                 <fullName>Varejo Fácil</fullName>
                 <default>false</default>
                 <label>Varejo Fácil</label>
@@ -1061,19 +1086,14 @@
                 <label>WK Sistemas</label>
             </value>
             <value>
-                <fullName>Superus</fullName>
+                <fullName>WMC Software</fullName>
                 <default>false</default>
-                <label>Superus</label>
+                <label>WMC Software</label>
             </value>
             <value>
                 <fullName>WM Sistemas</fullName>
                 <default>false</default>
                 <label>WM Sistemas</label>
-            </value>
-            <value>
-                <fullName>WMC Software</fullName>
-                <default>false</default>
-                <label>WMC Software</label>
             </value>
             <value>
                 <fullName>Worksoft</fullName>

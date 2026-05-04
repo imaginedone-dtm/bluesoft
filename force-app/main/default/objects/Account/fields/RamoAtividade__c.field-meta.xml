@@ -11,6 +11,16 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Alimentar - Açougues, Casa de Carnes</fullName>
+                <default>false</default>
+                <label>Alimentar - Açougues, Casa de Carnes</label>
+            </value>
+            <value>
+                <fullName>Alimentar - Açougues Casa de Carnes</fullName>
+                <default>false</default>
+                <label>Alimentar - Açougues Casa de Carnes</label>
+            </value>
+            <value>
                 <fullName>Alimentar - Atacado</fullName>
                 <default>false</default>
                 <label>Alimentar - Atacado</label>
@@ -19,11 +29,6 @@
                 <fullName>Alimentar - Atacarejo</fullName>
                 <default>false</default>
                 <label>Alimentar - Atacarejo</label>
-            </value>
-            <value>
-                <fullName>Alimentar - Açougues Casa de Carnes</fullName>
-                <default>false</default>
-                <label>Alimentar - Açougues Casa de Carnes</label>
             </value>
             <value>
                 <fullName>Alimentar - Bebidas</fullName>
@@ -91,6 +96,11 @@
                 <label>Alimentar - Superatacado</label>
             </value>
             <value>
+                <fullName>Alimentar - Supermercado</fullName>
+                <default>false</default>
+                <label>Alimentar - Supermercado</label>
+            </value>
+            <value>
                 <fullName>Automotivos</fullName>
                 <default>false</default>
                 <label>Automotivos</label>
@@ -104,6 +114,11 @@
                 <fullName>Bebê</fullName>
                 <default>false</default>
                 <label>Bebê</label>
+            </value>
+            <value>
+                <fullName>Cama, Mesa e Banho</fullName>
+                <default>false</default>
+                <label>Cama, Mesa e Banho</label>
             </value>
             <value>
                 <fullName>Cama Mesa e Banho</fullName>
@@ -146,9 +161,19 @@
                 <label>Eletrodomésticos | Eletromóveis</label>
             </value>
             <value>
+                <fullName>Fashion | Moda, Calçados e Esportivos</fullName>
+                <default>false</default>
+                <label>Fashion | Moda, Calçados e Esportivos</label>
+            </value>
+            <value>
                 <fullName>Fashion | Moda Calçados e Esportivos</fullName>
                 <default>false</default>
                 <label>Fashion | Moda Calçados e Esportivos</label>
+            </value>
+            <value>
+                <fullName>Food Service | Restaurantes, Bar, Café, Fast food</fullName>
+                <default>false</default>
+                <label>Food Service | Restaurantes, Bar, Café, Fast food</label>
             </value>
             <value>
                 <fullName>Food Service | Restaurantes Bar Café Fast food</fullName>
@@ -176,11 +201,6 @@
                 <label>Home Centers | Construção</label>
             </value>
             <value>
-                <fullName>Mais categorias</fullName>
-                <default>false</default>
-                <label>Mais categorias</label>
-            </value>
-            <value>
                 <fullName>Indústria</fullName>
                 <default>false</default>
                 <label>Indústria</label>
@@ -206,9 +226,29 @@
                 <label>Lojas de Shopping</label>
             </value>
             <value>
+                <fullName>Mais categorias</fullName>
+                <default>false</default>
+                <label>Mais categorias</label>
+            </value>
+            <value>
                 <fullName>Móveis</fullName>
                 <default>false</default>
                 <label>Móveis</label>
+            </value>
+            <value>
+                <fullName>Óticas, Jóias, Bijoux, Bolsas e Acessórios</fullName>
+                <default>false</default>
+                <label>Óticas, Jóias, Bijoux, Bolsas e Acessórios</label>
+            </value>
+            <value>
+                <fullName>Óticas Jóias Bijoux Bolsas e Acessórios</fullName>
+                <default>false</default>
+                <label>Óticas Jóias Bijoux Bolsas e Acessórios</label>
+            </value>
+            <value>
+                <fullName>Outros</fullName>
+                <default>false</default>
+                <label>Outros</label>
             </value>
             <value>
                 <fullName>Perfumarias | Beleza &amp; Cosméticos</fullName>
@@ -231,9 +271,19 @@
                 <label>Serviços - Automotivos</label>
             </value>
             <value>
+                <fullName>Serviços - Bancos, Fintechs, Seguradoras</fullName>
+                <default>false</default>
+                <label>Serviços - Bancos, Fintechs, Seguradoras</label>
+            </value>
+            <value>
                 <fullName>Serviços - Bancos Fintechs Seguradoras</fullName>
                 <default>false</default>
                 <label>Serviços - Bancos Fintechs Seguradoras</label>
+            </value>
+            <value>
+                <fullName>Serviços - Contabilidade</fullName>
+                <default>false</default>
+                <label>Serviços - Contabilidade</label>
             </value>
             <value>
                 <fullName>Serviços - Educacionais</fullName>
@@ -256,11 +306,6 @@
                 <label>Serviços - Logística &amp; Transporte</label>
             </value>
             <value>
-                <fullName>Serviços - Contabilidade</fullName>
-                <default>false</default>
-                <label>Serviços - Contabilidade</label>
-            </value>
-            <value>
                 <fullName>Serviços - Marketing</fullName>
                 <default>false</default>
                 <label>Serviços - Marketing</label>
@@ -276,14 +321,14 @@
                 <label>Serviços - Saúde</label>
             </value>
             <value>
-                <fullName>Outros</fullName>
-                <default>false</default>
-                <label>Outros</label>
-            </value>
-            <value>
                 <fullName>Tecnologia</fullName>
                 <default>false</default>
                 <label>Tecnologia</label>
+            </value>
+            <value>
+                <fullName>Textil</fullName>
+                <default>false</default>
+                <label>Textil</label>
             </value>
             <value>
                 <fullName>Têxtil</fullName>
@@ -299,11 +344,6 @@
                 <fullName>Varejo (Outros)</fullName>
                 <default>false</default>
                 <label>Varejo (Outros)</label>
-            </value>
-            <value>
-                <fullName>Óticas Jóias Bijoux Bolsas e Acessórios</fullName>
-                <default>false</default>
-                <label>Óticas Jóias Bijoux Bolsas e Acessórios</label>
             </value>
         </valueSetDefinition>
     </valueSet>
